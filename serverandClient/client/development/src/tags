@@ -1,0 +1,919 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AddRoundKey	gxaes.c	/^static void AddRoundKey(unsigned char round)$/;"	f	file:
+BLOCKLEN	gxaes.c	40;"	d	file:
+CLIENT_START_RCEIVER_FRAME_SEQUENCE	dlmsSettings.c	/^static const unsigned char CLIENT_START_RCEIVER_FRAME_SEQUENCE = 0xE;$/;"	v	file:
+CLIENT_START_SENDER_FRAME_SEQUENCE	dlmsSettings.c	/^static const unsigned char CLIENT_START_SENDER_FRAME_SEQUENCE = 0xFE;$/;"	v	file:
+Cipher	gxaes.c	/^static void Cipher(void)$/;"	f	file:
+GXDLMS_DATE_FORMAT	date.c	/^} GXDLMS_DATE_FORMAT;$/;"	t	typeref:enum:__anon1	file:
+GXDLMS_DATE_FORMAT_DMY	date.c	/^    GXDLMS_DATE_FORMAT_DMY = 0,$/;"	e	enum:__anon1	file:
+GXDLMS_DATE_FORMAT_INVALID	date.c	/^    GXDLMS_DATE_FORMAT_INVALID = -1,$/;"	e	enum:__anon1	file:
+GXDLMS_DATE_FORMAT_MDY	date.c	/^    GXDLMS_DATE_FORMAT_MDY = 1,$/;"	e	enum:__anon1	file:
+GXDLMS_DATE_FORMAT_YDM	date.c	/^    GXDLMS_DATE_FORMAT_YDM = 3$/;"	e	enum:__anon1	file:
+GXDLMS_DATE_FORMAT_YMD	date.c	/^    GXDLMS_DATE_FORMAT_YMD = 2,$/;"	e	enum:__anon1	file:
+HDLC_FRAME_START_END	dlms.c	/^static const unsigned char HDLC_FRAME_START_END = 0x7E;$/;"	v	file:
+InvCipher	gxaes.c	/^static void InvCipher(void)$/;"	f	file:
+InvMixColumns	gxaes.c	/^static void InvMixColumns(void)$/;"	f	file:
+InvShiftRows	gxaes.c	/^static void InvShiftRows(void)$/;"	f	file:
+InvSubBytes	gxaes.c	/^static void InvSubBytes(void)$/;"	f	file:
+Iv	gxaes.c	/^static unsigned char* Iv;$/;"	v	file:
+KEYLEN	gxaes.c	44;"	d	file:
+KEYLEN	gxaes.c	49;"	d	file:
+KEYLEN	gxaes.c	54;"	d	file:
+Key	gxaes.c	/^static const unsigned char* Key;$/;"	v	file:
+KeyExpansion	gxaes.c	/^static void KeyExpansion(void)$/;"	f	file:
+LLC_REPLY_BYTES	dlms.c	/^static const unsigned char LLC_REPLY_BYTES[3] = { 0xE6, 0xE7, 0x00 };$/;"	v	file:
+LLC_SEND_BYTES	dlms.c	/^static const unsigned char LLC_SEND_BYTES[3] = { 0xE6, 0xE6, 0x00 };$/;"	v	file:
+MULTIPLY_AS_A_FUNCTION	gxaes.c	60;"	d	file:
+MixColumns	gxaes.c	/^static void MixColumns(void)$/;"	f	file:
+Multiply	gxaes.c	/^static unsigned char Multiply(unsigned char x, unsigned char y)$/;"	f	file:
+Multiply	gxaes.c	315;"	d	file:
+Nb	gxaes.c	39;"	d	file:
+Nk	gxaes.c	43;"	d	file:
+Nk	gxaes.c	48;"	d	file:
+Nk	gxaes.c	53;"	d	file:
+Nr	gxaes.c	45;"	d	file:
+Nr	gxaes.c	50;"	d	file:
+Nr	gxaes.c	55;"	d	file:
+RCON	ciphering.c	195;"	d	file:
+ROTATE	ciphering.c	197;"	d	file:
+ROUND	ciphering.c	317;"	d	file:
+ROUND	ciphering.c	334;"	d	file:
+Rcon	ciphering.c	/^static const unsigned char Rcon[11] = {$/;"	v	file:
+Rcon	gxaes.c	/^static const unsigned char Rcon[11] = {$/;"	v	file:
+RoundKey	gxaes.c	/^static unsigned char RoundKey[keyExpSize];$/;"	v	file:
+SERVER_START_RECEIVER_FRAME_SEQUENCE	dlmsSettings.c	/^static const unsigned char SERVER_START_RECEIVER_FRAME_SEQUENCE = 0xFE;$/;"	v	file:
+SERVER_START_SENDER_FRAME_SEQUENCE	dlmsSettings.c	/^static const unsigned char SERVER_START_SENDER_FRAME_SEQUENCE = 0x1E;$/;"	v	file:
+SHA1_BLK	gxsha1.c	39;"	d	file:
+SHA1_R0	gxsha1.c	41;"	d	file:
+SHA1_R1	gxsha1.c	42;"	d	file:
+SHA1_R2	gxsha1.c	43;"	d	file:
+SHA1_R3	gxsha1.c	44;"	d	file:
+SHA1_R4	gxsha1.c	45;"	d	file:
+SHA1_ROL	gxsha1.c	38;"	d	file:
+SHA256_F1	gxsha256.c	61;"	d	file:
+SHA256_F2	gxsha256.c	62;"	d	file:
+SHA256_F3	gxsha256.c	63;"	d	file:
+SHA256_F4	gxsha256.c	64;"	d	file:
+SHA2_CH	gxsha256.c	59;"	d	file:
+SHA2_MAJ	gxsha256.c	60;"	d	file:
+SHA2_PACK32	gxsha256.c	72;"	d	file:
+SHA2_ROTL	gxsha256.c	58;"	d	file:
+SHA2_ROTR	gxsha256.c	57;"	d	file:
+SHA2_SHFR	gxsha256.c	56;"	d	file:
+SHA2_UNPACK32	gxsha256.c	65;"	d	file:
+ShiftRows	gxaes.c	/^static void ShiftRows(void)$/;"	f	file:
+SubBytes	gxaes.c	/^static void SubBytes(void)$/;"	f	file:
+TE0	ciphering.c	199;"	d	file:
+TE1	ciphering.c	201;"	d	file:
+TE2	ciphering.c	203;"	d	file:
+TE3	ciphering.c	205;"	d	file:
+TE41	ciphering.c	207;"	d	file:
+TE411	ciphering.c	223;"	d	file:
+TE414	ciphering.c	221;"	d	file:
+TE42	ciphering.c	209;"	d	file:
+TE421	ciphering.c	215;"	d	file:
+TE422	ciphering.c	225;"	d	file:
+TE43	ciphering.c	211;"	d	file:
+TE432	ciphering.c	217;"	d	file:
+TE433	ciphering.c	227;"	d	file:
+TE44	ciphering.c	213;"	d	file:
+TE443	ciphering.c	219;"	d	file:
+TE444	ciphering.c	229;"	d	file:
+Te0	ciphering.c	/^const unsigned long Te0[256] = {$/;"	v
+WRAP_IV	ciphering.c	/^static const unsigned char WRAP_IV[] = { 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6, 0xA6 };$/;"	v	file:
+XorWithIv	gxaes.c	/^static void XorWithIv(unsigned char* buf)$/;"	f	file:
+action	server.c	/^    unsigned char action;$/;"	m	struct:__anon2	file:
+actionItemToString	converters.c	/^void actionItemToString(gxActionItem* item, gxByteBuffer* ba)$/;"	f
+aes_encrypt	ciphering.c	/^void aes_encrypt(const unsigned long* rk, int Nr, const unsigned char* pt, unsigned char* ct)$/;"	f
+aes_gcm_gctr	ciphering.c	/^static void aes_gcm_gctr(unsigned long* aes, const unsigned char* J0, unsigned char* in, int len, unsigned char* out)$/;"	f	file:
+aes_gcm_ghash	ciphering.c	/^static void aes_gcm_ghash(const unsigned char* H, const unsigned char* aad, int aad_len,$/;"	f	file:
+apdu_generateAARE	apdu.c	/^int apdu_generateAARE($/;"	f
+apdu_generateAarq	apdu.c	/^int apdu_generateAarq($/;"	f
+apdu_generateApplicationContextName	apdu.c	/^int apdu_generateApplicationContextName($/;"	f
+apdu_generateUserInformation	apdu.c	/^int apdu_generateUserInformation($/;"	f
+apdu_getAuthenticationString	apdu.c	/^int apdu_getAuthenticationString($/;"	f
+apdu_getInitiateRequest	apdu.c	/^int apdu_getInitiateRequest($/;"	f
+apdu_getUserInformation	apdu.c	/^int apdu_getUserInformation($/;"	f
+apdu_handleResultComponent	apdu.c	/^int apdu_handleResultComponent(unsigned char value)$/;"	f
+apdu_parseApplicationContextName	apdu.c	/^int apdu_parseApplicationContextName($/;"	f
+apdu_parsePDU	apdu.c	/^int apdu_parsePDU($/;"	f
+apdu_parseProtocolVersion	apdu.c	/^int apdu_parseProtocolVersion(dlmsSettings* settings,$/;"	f
+apdu_parseUserInformation	apdu.c	/^int apdu_parseUserInformation($/;"	f
+apdu_updateAuthentication	apdu.c	/^int apdu_updateAuthentication($/;"	f
+apdu_updatePassword	apdu.c	/^int apdu_updatePassword($/;"	f
+apdu_validateAare	apdu.c	/^int apdu_validateAare($/;"	f
+append	converters.c	/^void append(char* buff, char* data)$/;"	f
+arr_attach	gxarray.c	/^void arr_attach($/;"	f
+arr_capacity	gxarray.c	/^int arr_capacity(gxArray* arr, int capacity)$/;"	f
+arr_clear	gxarray.c	/^void arr_clear($/;"	f
+arr_clearKeyValuePair	gxarray.c	/^void arr_clearKeyValuePair(gxArray* arr)$/;"	f
+arr_clearStrings	gxarray.c	/^void arr_clearStrings(gxArray* arr)$/;"	f
+arr_empty	gxarray.c	/^void arr_empty($/;"	f
+arr_get	gxarray.c	/^int arr_get(gxArray* arr, void** value)$/;"	f
+arr_getByIndex	gxarray.c	/^int arr_getByIndex(gxArray* arr, unsigned short index, void** value)$/;"	f
+arr_getByIndex	gxarray.c	/^int arr_getByIndex(gxArray* arr, unsigned short index, void** value, unsigned short itemSize)$/;"	f
+arr_getByIndex2	gxarray.c	/^int arr_getByIndex2(gxArray* arr, unsigned short index, void** value, unsigned short itemSize)$/;"	f
+arr_getCapacity	gxarray.c	/^unsigned short arr_getCapacity(gxArray* arr)$/;"	f
+arr_init	gxarray.c	/^void arr_init(gxArray * arr)$/;"	f
+arr_isAttached	gxarray.c	/^char arr_isAttached(gxArray* arr)$/;"	f
+arr_push	gxarray.c	/^int arr_push(gxArray* arr, void* item)$/;"	f
+arr_removeByIndex	gxarray.c	/^int arr_removeByIndex($/;"	f
+arr_removeByIndex	gxarray.c	/^int arr_removeByIndex(gxArray* arr, unsigned short index, void** value)$/;"	f
+ba_add	bitarray.c	/^int ba_add(bitArray *arr, gxByteBuffer * bytes, unsigned short count, unsigned char intelByteOrder)$/;"	f
+ba_attach	bitarray.c	/^void ba_attach($/;"	f
+ba_capacity	bitarray.c	/^int ba_capacity(bitArray* arr, unsigned short capacity)$/;"	f
+ba_clear	bitarray.c	/^void ba_clear(bitArray *arr)$/;"	f
+ba_copy	bitarray.c	/^int ba_copy($/;"	f
+ba_get	bitarray.c	/^int ba_get(bitArray *arr, unsigned char* value)$/;"	f
+ba_getByIndex	bitarray.c	/^int ba_getByIndex(bitArray *arr, int index, unsigned char *value)$/;"	f
+ba_getByteCount	bitarray.c	/^unsigned short ba_getByteCount(unsigned short bitCount)$/;"	f
+ba_getCapacity	bitarray.c	/^unsigned short ba_getCapacity(bitArray* arr)$/;"	f
+ba_init	bitarray.c	/^void ba_init(bitArray* arr)$/;"	f
+ba_isAttached	bitarray.c	/^char ba_isAttached(bitArray* arr)$/;"	f
+ba_set	bitarray.c	/^int ba_set(bitArray *arr, unsigned char item)$/;"	f
+ba_setByIndex	bitarray.c	/^int ba_setByIndex(bitArray *arr, int index, unsigned char item)$/;"	f
+ba_toInteger	bitarray.c	/^int ba_toInteger(bitArray *arr, int *value)$/;"	f
+ba_toString	bitarray.c	/^char* ba_toString(bitArray *arr)$/;"	f
+bb_addDoubleAsString	bytebuffer.c	/^void bb_addDoubleAsString($/;"	f
+bb_addHexString	bytebuffer.c	/^int bb_addHexString($/;"	f
+bb_addIntAsString	bytebuffer.c	/^void bb_addIntAsString(gxByteBuffer* bb, int value)$/;"	f
+bb_addIntAsString2	bytebuffer.c	/^void bb_addIntAsString2(gxByteBuffer* bb, int value, unsigned char digits)$/;"	f
+bb_addLogicalName	bytebuffer.c	/^int bb_addLogicalName($/;"	f
+bb_addString	bytebuffer.c	/^int bb_addString($/;"	f
+bb_allocate	bytebuffer.c	/^int bb_allocate($/;"	f
+bb_attach	bytebuffer.c	/^void bb_attach($/;"	f
+bb_attachString	bytebuffer.c	/^void bb_attachString($/;"	f
+bb_available	bytebuffer.c	/^unsigned short bb_available(gxByteBuffer* arr)$/;"	f
+bb_capacity	bytebuffer.c	/^int bb_capacity($/;"	f
+bb_clear	bytebuffer.c	/^int bb_clear($/;"	f
+bb_compare	bytebuffer.c	/^unsigned char bb_compare($/;"	f
+bb_empty	bytebuffer.c	/^int bb_empty($/;"	f
+bb_get	bytebuffer.c	/^int bb_get($/;"	f
+bb_getCapacity	bytebuffer.c	/^unsigned long bb_getCapacity(gxByteBuffer* arr)$/;"	f
+bb_getDouble	bytebuffer.c	/^int bb_getDouble($/;"	f
+bb_getFloat	bytebuffer.c	/^int bb_getFloat($/;"	f
+bb_getInt16	bytebuffer.c	/^int bb_getInt16($/;"	f
+bb_getInt32	bytebuffer.c	/^int bb_getInt32($/;"	f
+bb_getInt64	bytebuffer.c	/^int bb_getInt64($/;"	f
+bb_getInt8	bytebuffer.c	/^int bb_getInt8($/;"	f
+bb_getUInt128ByIndex	bytebuffer.c	/^int bb_getUInt128ByIndex($/;"	f
+bb_getUInt16	bytebuffer.c	/^int bb_getUInt16($/;"	f
+bb_getUInt16ByIndex	bytebuffer.c	/^int bb_getUInt16ByIndex($/;"	f
+bb_getUInt24	bytebuffer.c	/^int bb_getUInt24($/;"	f
+bb_getUInt24ByIndex	bytebuffer.c	/^int bb_getUInt24ByIndex($/;"	f
+bb_getUInt32	bytebuffer.c	/^int bb_getUInt32($/;"	f
+bb_getUInt32ByIndex	bytebuffer.c	/^int bb_getUInt32ByIndex($/;"	f
+bb_getUInt64	bytebuffer.c	/^int bb_getUInt64($/;"	f
+bb_getUInt64ByIndex	bytebuffer.c	/^int bb_getUInt64ByIndex($/;"	f
+bb_getUInt8	bytebuffer.c	/^int bb_getUInt8($/;"	f
+bb_getUInt8ByIndex	bytebuffer.c	/^int bb_getUInt8ByIndex($/;"	f
+bb_indexOf	bytebuffer.c	/^unsigned long bb_indexOf($/;"	f
+bb_init	bytebuffer.c	/^int bb_init($/;"	f
+bb_insert	bytebuffer.c	/^int bb_insert(const unsigned char* src,$/;"	f
+bb_insertUInt8	bytebuffer.c	/^int bb_insertUInt8($/;"	f
+bb_isAttached	bytebuffer.c	/^char bb_isAttached(gxByteBuffer * arr)$/;"	f
+bb_move	bytebuffer.c	/^int bb_move($/;"	f
+bb_print	bytebuffer.c	/^void bb_print(gxByteBuffer* bb)$/;"	f
+bb_set	bytebuffer.c	/^int bb_set($/;"	f
+bb_set2	bytebuffer.c	/^int bb_set2($/;"	f
+bb_setDouble	bytebuffer.c	/^int bb_setDouble($/;"	f
+bb_setFloat	bytebuffer.c	/^int bb_setFloat($/;"	f
+bb_setInt16	bytebuffer.c	/^int bb_setInt16($/;"	f
+bb_setInt32	bytebuffer.c	/^int bb_setInt32($/;"	f
+bb_setInt64	bytebuffer.c	/^int bb_setInt64($/;"	f
+bb_setInt8	bytebuffer.c	/^int bb_setInt8($/;"	f
+bb_setUInt16	bytebuffer.c	/^int bb_setUInt16($/;"	f
+bb_setUInt32	bytebuffer.c	/^int bb_setUInt32($/;"	f
+bb_setUInt32ByIndex	bytebuffer.c	/^int bb_setUInt32ByIndex($/;"	f
+bb_setUInt64	bytebuffer.c	/^int bb_setUInt64($/;"	f
+bb_setUInt8	bytebuffer.c	/^int bb_setUInt8($/;"	f
+bb_setUInt8ByIndex	bytebuffer.c	/^int bb_setUInt8ByIndex($/;"	f
+bb_size	bytebuffer.c	/^unsigned long bb_size(gxByteBuffer* arr)$/;"	f
+bb_subArray	bytebuffer.c	/^int bb_subArray($/;"	f
+bb_toHexString	bytebuffer.c	/^char* bb_toHexString($/;"	f
+bb_toHexString2	bytebuffer.c	/^int bb_toHexString2($/;"	f
+bb_toString	bytebuffer.c	/^char* bb_toString($/;"	f
+bb_trim	bytebuffer.c	/^int bb_trim($/;"	f
+bb_zero	bytebuffer.c	/^int bb_zero($/;"	f
+bit	helpers.c	/^unsigned bit;$/;"	v
+capture	gxinvoke.c	/^int capture(dlmsSettings* settings,$/;"	f
+checkFrame	dlmsSettings.c	/^unsigned char checkFrame($/;"	f
+cip_clear	ciphering.c	/^void cip_clear(ciphering* target)$/;"	f
+cip_crypt	ciphering.c	/^int cip_crypt($/;"	f
+cip_decrypt	ciphering.c	/^int cip_decrypt($/;"	f
+cip_decryptKey	ciphering.c	/^int cip_decryptKey($/;"	f
+cip_encrypt	ciphering.c	/^int cip_encrypt($/;"	f
+cip_encryptKey	ciphering.c	/^int cip_encryptKey($/;"	f
+cip_gctr	ciphering.c	/^static void cip_gctr(unsigned long* aes, const unsigned char* icb, unsigned char* in, int len, unsigned char* out)$/;"	f	file:
+cip_getGHash	ciphering.c	/^static void cip_getGHash($/;"	f	file:
+cip_getNonse	ciphering.c	/^static int cip_getNonse(unsigned long frameCounter, unsigned char* systemTitle, gxByteBuffer* nonce)$/;"	f	file:
+cip_inc32	ciphering.c	/^static void cip_inc32(unsigned char* block)$/;"	f	file:
+cip_init	ciphering.c	/^void cip_init(ciphering* target)$/;"	f
+cip_init_j0	ciphering.c	/^static void cip_init_j0($/;"	f	file:
+cip_int	ciphering.c	/^int cip_int(unsigned long* rk,$/;"	f
+cip_multiplyH	ciphering.c	/^static void cip_multiplyH(const unsigned char* x, const unsigned char* y, unsigned char* z)$/;"	f	file:
+cip_xor	ciphering.c	/^static void cip_xor($/;"	f	file:
+cl_aarqRequest	client.c	/^int cl_aarqRequest($/;"	f
+cl_changeType	client.c	/^int cl_changeType($/;"	f
+cl_clear	dlmsSettings.c	/^void cl_clear($/;"	f
+cl_disconnectRequest	client.c	/^int cl_disconnectRequest(dlmsSettings* settings, message* packets)$/;"	f
+cl_getApplicationAssociationRequest	client.c	/^int cl_getApplicationAssociationRequest($/;"	f
+cl_getData	client.c	/^int cl_getData(dlmsSettings* settings, gxByteBuffer* reply, gxReplyData* data)$/;"	f
+cl_getObjectsRequest	client.c	/^int cl_getObjectsRequest(dlmsSettings* settings, message* messages)$/;"	f
+cl_init	dlmsSettings.c	/^void cl_init($/;"	f
+cl_method	client.c	/^int cl_method($/;"	f
+cl_methodLN	client.c	/^int cl_methodLN($/;"	f
+cl_methodSN	client.c	/^int cl_methodSN($/;"	f
+cl_parseAAREResponse	client.c	/^int cl_parseAAREResponse(dlmsSettings* settings, gxByteBuffer* reply)$/;"	f
+cl_parseApplicationAssociationResponse	client.c	/^int cl_parseApplicationAssociationResponse($/;"	f
+cl_parseLNObjects	client.c	/^int cl_parseLNObjects(gxByteBuffer* data, objectArray* objects)$/;"	f
+cl_parseNextObject	client.c	/^int cl_parseNextObject($/;"	f
+cl_parseObjectCount	client.c	/^int cl_parseObjectCount($/;"	f
+cl_parseObjects	client.c	/^int cl_parseObjects(dlmsSettings* settings, gxByteBuffer* data)$/;"	f
+cl_parseSNObjects	client.c	/^int cl_parseSNObjects(gxByteBuffer* data, objectArray* objects)$/;"	f
+cl_parseUAResponse	client.c	/^int cl_parseUAResponse(dlmsSettings* settings, gxByteBuffer* data)$/;"	f
+cl_read	client.c	/^int cl_read($/;"	f
+cl_readLN	client.c	/^int cl_readLN($/;"	f
+cl_readList	client.c	/^int cl_readList($/;"	f
+cl_readRowsByEntry	client.c	/^int cl_readRowsByEntry(dlmsSettings* settings, gxProfileGeneric* object, unsigned long index, unsigned long count, message* messages)$/;"	f
+cl_readRowsByEntry2	client.c	/^int cl_readRowsByEntry2(dlmsSettings* settings, gxProfileGeneric* object, unsigned long index, unsigned long count, unsigned short colStart, unsigned short colEnd, message* messages)$/;"	f
+cl_readRowsByRange	client.c	/^int cl_readRowsByRange($/;"	f
+cl_readRowsByRange2	client.c	/^int cl_readRowsByRange2($/;"	f
+cl_readSN	client.c	/^int cl_readSN($/;"	f
+cl_receiverReady	client.c	/^int cl_receiverReady(dlmsSettings* settings, DLMS_DATA_REQUEST_TYPES type, gxByteBuffer* reply)$/;"	f
+cl_releaseRequest	client.c	/^int cl_releaseRequest(dlmsSettings* settings, message* packets)$/;"	f
+cl_snrmRequest	client.c	/^int cl_snrmRequest(dlmsSettings* settings, message* messages)$/;"	f
+cl_updateValue	client.c	/^int cl_updateValue($/;"	f
+cl_updateValues	client.c	/^int cl_updateValues($/;"	f
+cl_write	client.c	/^int cl_write($/;"	f
+cl_writeLN	client.c	/^int cl_writeLN($/;"	f
+cl_writeSN	client.c	/^int cl_writeSN($/;"	f
+clear_ProtectionParameter	gxobjects.c	/^void clear_ProtectionParameter(gxProtectionParameter* target)$/;"	f
+clock_updateDST	gxobjects.c	/^void clock_updateDST(gxClock* object, gxtime* value)$/;"	f
+clock_utcToMeterTime	gxobjects.c	/^int clock_utcToMeterTime(gxClock* object, gxtime* value)$/;"	f
+co_init	gxobjects.c	/^gxTarget* co_init($/;"	f
+compactDataAppend	gxinvoke.c	/^int compactDataAppend(unsigned char byteArray, dlmsVARIANT* value3, gxByteBuffer* bb)$/;"	f
+compactDataAppendArray	gxinvoke.c	/^int compactDataAppendArray(dlmsVARIANT* value, gxByteBuffer* bb, unsigned short dataIndex)$/;"	f
+compactData_getValues	gxget.c	/^int compactData_getValues($/;"	f
+compactData_getValues2	gxget.c	/^int compactData_getValues2($/;"	f
+compactData_updateTemplateDescription	gxset.c	/^int compactData_updateTemplateDescription($/;"	f
+convert	variant.c	/^static int convert(dlmsVARIANT* item, DLMS_DATA_TYPE type)$/;"	f	file:
+cosem_add	gxget.c	/^int cosem_add(gxByteBuffer* data, const char* value, unsigned char len)$/;"	f
+cosem_captureCompactData	gxinvoke.c	/^int cosem_captureCompactData($/;"	f
+cosem_checkArray	cosem.c	/^int cosem_checkArray(gxByteBuffer* bb, unsigned short* count)$/;"	f
+cosem_checkStructure	cosem.c	/^int cosem_checkStructure(gxByteBuffer* bb, unsigned char expectedItemCount)$/;"	f
+cosem_createObject	cosem.c	/^int cosem_createObject(DLMS_OBJECT_TYPE type, gxObject** object)$/;"	f
+cosem_createObject2	cosem.c	/^int cosem_createObject2($/;"	f
+cosem_getAccount	gxget.c	/^int cosem_getAccount($/;"	f
+cosem_getActionSchedule	gxget.c	/^int cosem_getActionSchedule($/;"	f
+cosem_getActivityCalendar	gxget.c	/^int cosem_getActivityCalendar($/;"	f
+cosem_getAssociationLogicalName	gxget.c	/^int cosem_getAssociationLogicalName($/;"	f
+cosem_getAssociationShortName	gxget.c	/^int cosem_getAssociationShortName($/;"	f
+cosem_getAutoAnswer	gxget.c	/^int cosem_getAutoAnswer($/;"	f
+cosem_getAutoConnect	gxget.c	/^int cosem_getAutoConnect($/;"	f
+cosem_getAvailableSwitches	gxget.c	/^int cosem_getAvailableSwitches(gxValueEventArg* e)$/;"	f
+cosem_getBitString	cosem.c	/^int cosem_getBitString(gxByteBuffer* bb, bitArray* value)$/;"	f
+cosem_getBoolean	cosem.c	/^int cosem_getBoolean(gxByteBuffer* bb, unsigned char* value)$/;"	f
+cosem_getByteBuffer	gxget.c	/^int cosem_getByteBuffer(gxValueEventArg* e)$/;"	f
+cosem_getCharge	gxget.c	/^int cosem_getCharge($/;"	f
+cosem_getClock	gxget.c	/^int cosem_getClock($/;"	f
+cosem_getColumns	gxget.c	/^int cosem_getColumns($/;"	f
+cosem_getCommunications	gxget.c	/^int cosem_getCommunications(gxValueEventArg* e)$/;"	f
+cosem_getCompactData	gxget.c	/^int cosem_getCompactData($/;"	f
+cosem_getCredit	gxget.c	/^int cosem_getCredit($/;"	f
+cosem_getData	gxget.c	/^int cosem_getData(gxValueEventArg* e)$/;"	f
+cosem_getDate	cosem.c	/^int cosem_getDate(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getDateFromOctectString	cosem.c	/^int cosem_getDateFromOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getDateTime	cosem.c	/^int cosem_getDateTime(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getDateTimeBase	cosem.c	/^int cosem_getDateTimeBase(gxByteBuffer* bb, gxtime* value, unsigned char type)$/;"	f
+cosem_getDateTimeFromOctectString	cosem.c	/^int cosem_getDateTimeFromOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getDateTimeFromOctectStringBase	cosem.c	/^int cosem_getDateTimeFromOctectStringBase(gxByteBuffer* bb, gxtime* value, unsigned char type)$/;"	f
+cosem_getDemandRegister	gxget.c	/^int cosem_getDemandRegister($/;"	f
+cosem_getDirectTable	gxget.c	/^int cosem_getDirectTable(gxValueEventArg* e)$/;"	f
+cosem_getDisconnectControl	gxget.c	/^int cosem_getDisconnectControl($/;"	f
+cosem_getEnum	cosem.c	/^int cosem_getEnum(gxByteBuffer* bb, unsigned char* value)$/;"	f
+cosem_getExtendedRegister	gxget.c	/^int cosem_getExtendedRegister($/;"	f
+cosem_getGprsSetup	gxget.c	/^int cosem_getGprsSetup($/;"	f
+cosem_getGsmDiagnostic	gxget.c	/^int cosem_getGsmDiagnostic($/;"	f
+cosem_getIP4Setup	gxget.c	/^int cosem_getIP4Setup($/;"	f
+cosem_getIecHdlcSetup	gxget.c	/^int cosem_getIecHdlcSetup($/;"	f
+cosem_getIecLocalPortSetup	gxget.c	/^int cosem_getIecLocalPortSetup($/;"	f
+cosem_getImageTransfer	gxget.c	/^int cosem_getImageTransfer($/;"	f
+cosem_getInt16	cosem.c	/^int cosem_getInt16(gxByteBuffer* bb, short* value)$/;"	f
+cosem_getInt32	cosem.c	/^int cosem_getInt32(gxByteBuffer* bb, int* value)$/;"	f
+cosem_getInt8	cosem.c	/^int cosem_getInt8(gxByteBuffer* bb, signed char* value)$/;"	f
+cosem_getLimiter	gxget.c	/^int cosem_getLimiter($/;"	f
+cosem_getLlcSscsSetup	gxget.c	/^int cosem_getLlcSscsSetup($/;"	f
+cosem_getMacAddressSetup	gxget.c	/^int cosem_getMacAddressSetup($/;"	f
+cosem_getMbusMasterPortSetup	gxget.c	/^int cosem_getMbusMasterPortSetup($/;"	f
+cosem_getMbusSlavePortSetup	gxget.c	/^int cosem_getMbusSlavePortSetup($/;"	f
+cosem_getMessageHandler	gxget.c	/^int cosem_getMessageHandler($/;"	f
+cosem_getModemConfiguration	gxget.c	/^int cosem_getModemConfiguration($/;"	f
+cosem_getMulticastEntries	gxget.c	/^int cosem_getMulticastEntries(gxValueEventArg* e)$/;"	f
+cosem_getObjectSize	cosem.c	/^int cosem_getObjectSize(DLMS_OBJECT_TYPE type)$/;"	f
+cosem_getOctectString	cosem.c	/^int cosem_getOctectString(gxByteBuffer* bb, gxByteBuffer* value)$/;"	f
+cosem_getOctectString2	cosem.c	/^int cosem_getOctectString2(gxByteBuffer* bb, unsigned char* value, unsigned short capacity, unsigned short* size)$/;"	f
+cosem_getOctectStringBase	cosem.c	/^int cosem_getOctectStringBase(gxByteBuffer* bb, gxByteBuffer* value, unsigned char type)$/;"	f
+cosem_getOctectStringBase2	cosem.c	/^int cosem_getOctectStringBase2(gxByteBuffer* bb, unsigned char* value, unsigned short capacity, unsigned short* size, unsigned char type)$/;"	f
+cosem_getParameterMonitor	gxget.c	/^int cosem_getParameterMonitor($/;"	f
+cosem_getPppSetup	gxget.c	/^int cosem_getPppSetup($/;"	f
+cosem_getPrimeNbOfdmPlcApplicationsIdentification	gxget.c	/^int  cosem_getPrimeNbOfdmPlcApplicationsIdentification($/;"	f
+cosem_getPrimeNbOfdmPlcMacCounters	gxget.c	/^int cosem_getPrimeNbOfdmPlcMacCounters($/;"	f
+cosem_getPrimeNbOfdmPlcMacFunctionalParameters	gxget.c	/^int cosem_getPrimeNbOfdmPlcMacFunctionalParameters($/;"	f
+cosem_getPrimeNbOfdmPlcMacNetworkAdministrationData	gxget.c	/^int  cosem_getPrimeNbOfdmPlcMacNetworkAdministrationData($/;"	f
+cosem_getPrimeNbOfdmPlcMacSetup	gxget.c	/^int cosem_getPrimeNbOfdmPlcMacSetup($/;"	f
+cosem_getPrimeNbOfdmPlcPhysicalLayerCounters	gxget.c	/^int cosem_getPrimeNbOfdmPlcPhysicalLayerCounters($/;"	f
+cosem_getProfileGeneric	gxget.c	/^int cosem_getProfileGeneric($/;"	f
+cosem_getPushSetup	gxget.c	/^int cosem_getPushSetup($/;"	f
+cosem_getQualityOfService	gxget.c	/^int cosem_getQualityOfService(gxQualityOfService* service, gxByteBuffer* ba)$/;"	f
+cosem_getRegister	gxget.c	/^int cosem_getRegister($/;"	f
+cosem_getRegisterActivation	gxget.c	/^int cosem_getRegisterActivation($/;"	f
+cosem_getRegisterMonitor	gxget.c	/^int cosem_getRegisterMonitor($/;"	f
+cosem_getRegisterTable	gxget.c	/^int cosem_getRegisterTable($/;"	f
+cosem_getRow	gxget.c	/^int cosem_getRow($/;"	f
+cosem_getSapAssignment	gxget.c	/^int cosem_getSapAssignment($/;"	f
+cosem_getSchedule	gxget.c	/^int cosem_getSchedule($/;"	f
+cosem_getScriptTable	gxget.c	/^int cosem_getScriptTable($/;"	f
+cosem_getSecuritySetup	gxget.c	/^int cosem_getSecuritySetup($/;"	f
+cosem_getSpecialDaysTable	gxget.c	/^int cosem_getSpecialDaysTable($/;"	f
+cosem_getString	cosem.c	/^int cosem_getString(gxByteBuffer* bb, gxByteBuffer* value)$/;"	f
+cosem_getString2	cosem.c	/^int cosem_getString2(gxByteBuffer* bb, char* value, unsigned short capacity)$/;"	f
+cosem_getSwitchTable	gxget.c	/^int cosem_getSwitchTable(gxValueEventArg* e)$/;"	f
+cosem_getTariffPlan	gxget.c	/^int cosem_getTariffPlan(gxValueEventArg* e)$/;"	f
+cosem_getTcpUdpSetup	gxget.c	/^int cosem_getTcpUdpSetup($/;"	f
+cosem_getTime	cosem.c	/^int cosem_getTime(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getTimeFromOctectString	cosem.c	/^int cosem_getTimeFromOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_getTokenGateway	gxget.c	/^int cosem_getTokenGateway($/;"	f
+cosem_getUInt16	cosem.c	/^int cosem_getUInt16(gxByteBuffer* bb, unsigned short* value)$/;"	f
+cosem_getUInt32	cosem.c	/^int cosem_getUInt32(gxByteBuffer* bb, unsigned long* value)$/;"	f
+cosem_getUInt8	cosem.c	/^int cosem_getUInt8(gxByteBuffer* bb, unsigned char* value)$/;"	f
+cosem_getUtf8String	cosem.c	/^int cosem_getUtf8String(gxByteBuffer* bb, gxByteBuffer* value)$/;"	f
+cosem_getUtf8String2	cosem.c	/^int cosem_getUtf8String2(gxByteBuffer* bb, char* value, unsigned short capacity, unsigned short* size)$/;"	f
+cosem_getUtilityTables	gxget.c	/^int cosem_getUtilityTables($/;"	f
+cosem_getValue	gxget.c	/^int cosem_getValue($/;"	f
+cosem_getVariant	cosem.c	/^int cosem_getVariant(gxByteBuffer* bb, dlmsVARIANT* value)$/;"	f
+cosem_getZigbeeNetworkControl	gxget.c	/^int cosem_getZigbeeNetworkControl($/;"	f
+cosem_getmMbusClient	gxget.c	/^int cosem_getmMbusClient($/;"	f
+cosem_init	cosem.c	/^int cosem_init($/;"	f
+cosem_init2	cosem.c	/^int cosem_init2($/;"	f
+cosem_invoke	gxinvoke.c	/^int cosem_invoke($/;"	f
+cosem_setAccount	gxset.c	/^int cosem_setAccount(gxAccount* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setActionSchedule	gxset.c	/^int cosem_setActionSchedule($/;"	f
+cosem_setActivityCalendar	gxset.c	/^int cosem_setActivityCalendar(dlmsSettings* settings, gxActivityCalendar* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setArray	cosem.c	/^int cosem_setArray(gxByteBuffer* bb, unsigned short count)$/;"	f
+cosem_setAssociationLogicalName	gxset.c	/^int cosem_setAssociationLogicalName($/;"	f
+cosem_setAssociationShortName	gxset.c	/^int cosem_setAssociationShortName($/;"	f
+cosem_setAutoAnswer	gxset.c	/^int cosem_setAutoAnswer(gxAutoAnswer* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setAutoConnect	gxset.c	/^int cosem_setAutoConnect(gxAutoConnect* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setAvailableSwitches	gxset.c	/^int cosem_setAvailableSwitches(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, dlmsVARIANT* value)$/;"	f
+cosem_setCharge	gxset.c	/^int cosem_setCharge(dlmsSettings* settings, gxCharge* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setClock	gxset.c	/^int cosem_setClock(dlmsSettings* settings, gxClock* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setCommunications	gxset.c	/^int cosem_setCommunications(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, dlmsVARIANT* value)$/;"	f
+cosem_setCompactData	gxset.c	/^int cosem_setCompactData($/;"	f
+cosem_setCredit	gxset.c	/^int cosem_setCredit(gxCredit* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setData	gxset.c	/^int cosem_setData(gxData* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setDate	cosem.c	/^int cosem_setDate(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setDateAsOctectString	cosem.c	/^int cosem_setDateAsOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setDateTime	cosem.c	/^int cosem_setDateTime(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setDateTimeAsOctectString	cosem.c	/^int cosem_setDateTimeAsOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setDemandRegister	gxset.c	/^int cosem_setDemandRegister(gxDemandRegister* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setDirectTable	gxset.c	/^int cosem_setDirectTable(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, dlmsVARIANT* value)$/;"	f
+cosem_setDisconnectControl	gxset.c	/^int cosem_setDisconnectControl(gxDisconnectControl* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setExtendedRegister	gxset.c	/^int cosem_setExtendedRegister(gxExtendedRegister* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setGprsSetup	gxset.c	/^int cosem_setGprsSetup(gxGPRSSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setGsmDiagnostic	gxset.c	/^int cosem_setGsmDiagnostic(gxGsmDiagnostic* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setIP4Setup	gxset.c	/^int cosem_setIP4Setup(dlmsSettings* settings, gxIp4Setup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setIecHdlcSetup	gxset.c	/^int cosem_setIecHdlcSetup(gxIecHdlcSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setIecLocalPortSetup	gxset.c	/^int cosem_setIecLocalPortSetup(gxLocalPortSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setImageTransfer	gxset.c	/^int cosem_setImageTransfer(gxImageTransfer* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setInt16	cosem.c	/^int cosem_setInt16(gxByteBuffer* bb, short value)$/;"	f
+cosem_setInt32	cosem.c	/^int cosem_setInt32(gxByteBuffer* bb, long value)$/;"	f
+cosem_setInt64	cosem.c	/^int cosem_setInt64(gxByteBuffer* bb, long long* value)$/;"	f
+cosem_setInt8	cosem.c	/^int cosem_setInt8(gxByteBuffer* bb, char value)$/;"	f
+cosem_setLimiter	gxset.c	/^int cosem_setLimiter(dlmsSettings* settings, gxLimiter* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setLlcSscsSetup	gxset.c	/^int cosem_setLlcSscsSetup($/;"	f
+cosem_setLogicalName	cosem.c	/^int cosem_setLogicalName($/;"	f
+cosem_setMacAddressSetup	gxset.c	/^int cosem_setMacAddressSetup(gxMacAddressSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setMbusMasterPortSetup	gxset.c	/^int cosem_setMbusMasterPortSetup(gxMBusMasterPortSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setMbusSlavePortSetup	gxset.c	/^int cosem_setMbusSlavePortSetup(gxMbusSlavePortSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setMessageHandler	gxset.c	/^int cosem_setMessageHandler($/;"	f
+cosem_setModemConfiguration	gxset.c	/^int cosem_setModemConfiguration(gxModemConfiguration* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setMulticastEntries	gxset.c	/^int cosem_setMulticastEntries(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, dlmsVARIANT* value)$/;"	f
+cosem_setOctectString	cosem.c	/^int cosem_setOctectString(gxByteBuffer* bb, gxByteBuffer* value)$/;"	f
+cosem_setOctectString2	cosem.c	/^int cosem_setOctectString2($/;"	f
+cosem_setParameterMonitor	gxset.c	/^int cosem_setParameterMonitor($/;"	f
+cosem_setPppSetup	gxset.c	/^int cosem_setPppSetup(dlmsSettings* settings, gxPppSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setPrimeNbOfdmPlcApplicationsIdentification	gxset.c	/^int cosem_setPrimeNbOfdmPlcApplicationsIdentification($/;"	f
+cosem_setPrimeNbOfdmPlcMacCounters	gxset.c	/^int cosem_setPrimeNbOfdmPlcMacCounters($/;"	f
+cosem_setPrimeNbOfdmPlcMacFunctionalParameters	gxset.c	/^int cosem_setPrimeNbOfdmPlcMacFunctionalParameters($/;"	f
+cosem_setPrimeNbOfdmPlcMacNetworkAdministrationData	gxset.c	/^int cosem_setPrimeNbOfdmPlcMacNetworkAdministrationData($/;"	f
+cosem_setPrimeNbOfdmPlcMacSetup	gxset.c	/^int cosem_setPrimeNbOfdmPlcMacSetup($/;"	f
+cosem_setPrimeNbOfdmPlcPhysicalLayerCounters	gxset.c	/^int cosem_setPrimeNbOfdmPlcPhysicalLayerCounters($/;"	f
+cosem_setProfileGeneric	gxset.c	/^int cosem_setProfileGeneric($/;"	f
+cosem_setPushSetup	gxset.c	/^int cosem_setPushSetup(dlmsSettings* settings, gxPushSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setRegister	gxset.c	/^int cosem_setRegister(gxRegister* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setRegisterActivation	gxset.c	/^int cosem_setRegisterActivation(dlmsSettings* settings, gxRegisterActivation* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setRegisterMonitor	gxset.c	/^int cosem_setRegisterMonitor(dlmsSettings* settings, gxRegisterMonitor* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setRegistertable	gxset.c	/^int cosem_setRegistertable(gxRegisterTable* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setSapAssignment	gxset.c	/^int cosem_setSapAssignment(gxSapAssignment* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setSchedule	gxset.c	/^int cosem_setSchedule(dlmsSettings* settings, gxSchedule* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setScriptTable	gxset.c	/^int cosem_setScriptTable(dlmsSettings* settings, gxScriptTable* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setSecuritySetup	gxset.c	/^int cosem_setSecuritySetup(gxSecuritySetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setSpecialDaysTable	gxset.c	/^int cosem_setSpecialDaysTable(gxSpecialDaysTable* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setStructure	cosem.c	/^int cosem_setStructure(gxByteBuffer* bb, unsigned short count)$/;"	f
+cosem_setSwitchTable	gxset.c	/^int cosem_setSwitchTable(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, dlmsVARIANT* value)$/;"	f
+cosem_setTariffPlan	gxset.c	/^int cosem_setTariffPlan(gxTariffPlan* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setTcpUdpSetup	gxset.c	/^int cosem_setTcpUdpSetup(dlmsSettings* settings, gxTcpUdpSetup* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setTime	cosem.c	/^int cosem_setTime(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setTimeAsOctectString	cosem.c	/^int cosem_setTimeAsOctectString(gxByteBuffer* bb, gxtime* value)$/;"	f
+cosem_setTokenGateway	gxset.c	/^int cosem_setTokenGateway(gxTokenGateway* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setUInt16	cosem.c	/^int cosem_setUInt16(gxByteBuffer* bb, unsigned short value)$/;"	f
+cosem_setUInt32	cosem.c	/^int cosem_setUInt32(gxByteBuffer* bb, unsigned long value)$/;"	f
+cosem_setUInt64	cosem.c	/^int cosem_setUInt64(gxByteBuffer* bb, unsigned long long* value)$/;"	f
+cosem_setUInt8	cosem.c	/^int cosem_setUInt8(gxByteBuffer* bb, unsigned char value)$/;"	f
+cosem_setUtilityTables	gxset.c	/^int cosem_setUtilityTables(gxUtilityTables* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+cosem_setValue	gxset.c	/^int cosem_setValue(dlmsSettings* settings, gxValueEventArg* e)$/;"	f
+cosem_setVariant	cosem.c	/^int cosem_setVariant(gxByteBuffer* bb, dlmsVARIANT* value)$/;"	f
+cosem_setmMbusClient	gxset.c	/^int cosem_setmMbusClient(dlmsSettings* settings, gxMBusClient* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+date_daysInMonth	date.c	/^unsigned char date_daysInMonth($/;"	f
+di_init	datainfo.c	/^void di_init(gxDataInfo *info)$/;"	f
+dlms_addLLCBytes	dlms.c	/^int dlms_addLLCBytes($/;"	f
+dlms_appendHdlcParameter	dlms.c	/^int dlms_appendHdlcParameter(gxByteBuffer* data, unsigned short value)$/;"	f
+dlms_appendMultipleSNBlocks	dlms.c	/^int dlms_appendMultipleSNBlocks($/;"	f
+dlms_changeType	dlms.c	/^int dlms_changeType($/;"	f
+dlms_changeType2	dlms.c	/^int dlms_changeType2($/;"	f
+dlms_checkHdlcAddress	dlms.c	/^int dlms_checkHdlcAddress($/;"	f
+dlms_checkInit	dlms.c	/^int dlms_checkInit(dlmsSettings* settings)$/;"	f
+dlms_checkLLCBytes	dlms.c	/^int dlms_checkLLCBytes(dlmsSettings* settings, gxByteBuffer* data)$/;"	f
+dlms_checkWrapperAddress	dlms.c	/^int dlms_checkWrapperAddress(dlmsSettings* settings,$/;"	f
+dlms_generateChallenge	dlms.c	/^int dlms_generateChallenge($/;"	f
+dlms_getActionInfo	dlms.c	/^int dlms_getActionInfo($/;"	f
+dlms_getAddress	dlms.c	/^int dlms_getAddress(long value, unsigned long* address, int* size)$/;"	f
+dlms_getAddressBytes	dlms.c	/^int dlms_getAddressBytes($/;"	f
+dlms_getData	dlms.c	/^int dlms_getData(gxByteBuffer* data, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+dlms_getData2	dlms.c	/^int dlms_getData2($/;"	f
+dlms_getDataFromBlock	dlms.c	/^int dlms_getDataFromBlock(gxByteBuffer* data, unsigned short index)$/;"	f
+dlms_getDataFromFrame	dlms.c	/^int dlms_getDataFromFrame($/;"	f
+dlms_getGloMessage	dlms.c	/^unsigned char dlms_getGloMessage(dlmsSettings* settings, DLMS_COMMAND command, DLMS_COMMAND encryptedCommand)$/;"	f
+dlms_getHDLCAddress	dlms.c	/^int dlms_getHDLCAddress($/;"	f
+dlms_getHdlcData	dlms.c	/^int dlms_getHdlcData($/;"	f
+dlms_getHdlcFrame	dlms.c	/^int dlms_getHdlcFrame($/;"	f
+dlms_getInvokeIDPriority	dlms.c	/^unsigned char dlms_getInvokeIDPriority(dlmsSettings* settings, unsigned char increase)$/;"	f
+dlms_getLNPdu	dlms.c	/^int dlms_getLNPdu($/;"	f
+dlms_getLnMessages	dlms.c	/^int dlms_getLnMessages($/;"	f
+dlms_getLongInvokeIDPriority	dlms.c	/^long dlms_getLongInvokeIDPriority(dlmsSettings* settings)$/;"	f
+dlms_getMaxPduSize	dlms.c	/^int dlms_getMaxPduSize($/;"	f
+dlms_getPdu	dlms.c	/^int dlms_getPdu($/;"	f
+dlms_getSNPdu	dlms.c	/^int dlms_getSNPdu($/;"	f
+dlms_getSnMessages	dlms.c	/^int dlms_getSnMessages($/;"	f
+dlms_getTcpData	dlms.c	/^int dlms_getTcpData($/;"	f
+dlms_getValueFromData	dlms.c	/^int dlms_getValueFromData(dlmsSettings* settings,$/;"	f
+dlms_getWrapperFrame	dlms.c	/^int dlms_getWrapperFrame($/;"	f
+dlms_handleDataNotification	dlms.c	/^int dlms_handleDataNotification($/;"	f
+dlms_handleGbt	dlms.c	/^int dlms_handleGbt($/;"	f
+dlms_handleGeneralCiphering	dlms.c	/^int dlms_handleGeneralCiphering($/;"	f
+dlms_handleGetResponse	dlms.c	/^int dlms_handleGetResponse($/;"	f
+dlms_handleMethodResponse	dlms.c	/^int dlms_handleMethodResponse($/;"	f
+dlms_handlePush	dlms.c	/^int dlms_handlePush(gxReplyData* reply)$/;"	f
+dlms_handleReadResponse	dlms.c	/^int dlms_handleReadResponse($/;"	f
+dlms_handleSetResponse	dlms.c	/^int dlms_handleSetResponse($/;"	f
+dlms_handleWriteResponse	dlms.c	/^int dlms_handleWriteResponse($/;"	f
+dlms_handledGloDedRequest	dlms.c	/^int dlms_handledGloDedRequest(dlmsSettings* settings,$/;"	f
+dlms_handledGloDedResponse	dlms.c	/^int dlms_handledGloDedResponse(dlmsSettings* settings,$/;"	f
+dlms_isPduFull	dlms.c	/^int dlms_isPduFull(dlmsSettings* settings, gxByteBuffer* data, unsigned short* size)$/;"	f
+dlms_multipleBlocks	dlms.c	/^void dlms_multipleBlocks($/;"	f
+dlms_parseSnrmUaResponse	dlms.c	/^int dlms_parseSnrmUaResponse($/;"	f
+dlms_readResponseDataBlockResult	dlms.c	/^int dlms_readResponseDataBlockResult($/;"	f
+dlms_receiverReady	dlms.c	/^int dlms_receiverReady($/;"	f
+dlms_secure	dlms.c	/^int dlms_secure($/;"	f
+dlms_setData	dlms.c	/^int dlms_setData(gxByteBuffer* buff, DLMS_DATA_TYPE type, dlmsVARIANT* value)$/;"	f
+dlms_setData2	dlms.c	/^int dlms_setData2($/;"	f
+dlms_verifyInvokeId	dlms.c	/^int dlms_verifyInvokeId(dlmsSettings* settings, gxReplyData* reply)$/;"	f
+err_toString	converters.c	/^const char* err_toString(int err)$/;"	f
+getActivityCalendarDayProfileTable	gxget.c	/^int getActivityCalendarDayProfileTable(gxArray* list, gxByteBuffer* ba)$/;"	f
+getActivityCalendarName	gxget.c	/^int getActivityCalendarName(gxByteBuffer* name, gxByteBuffer* ba)$/;"	f
+getActivityCalendarSeasonProfile	gxget.c	/^int getActivityCalendarSeasonProfile(gxArray* list, gxByteBuffer* ba)$/;"	f
+getActivityCalendarWeekProfileTable	gxget.c	/^int getActivityCalendarWeekProfileTable(gxArray* list, gxByteBuffer* ba)$/;"	f
+getArray	dlms.c	/^int getArray(gxByteBuffer* buff, gxDataInfo* info, unsigned short index, dlmsVARIANT* value)$/;"	f
+getBcd	dlms.c	/^int getBcd(gxByteBuffer* buff, gxDataInfo* info, unsigned char knownType, dlmsVARIANT* value)$/;"	f
+getBitString	dlms.c	/^static int getBitString(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f	file:
+getBool	dlms.c	/^static int getBool(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f	file:
+getByteIndex	bitarray.c	/^int getByteIndex(int bitCount)$/;"	f
+getColumns	gxget.c	/^int getColumns($/;"	f
+getCompactArray	dlms.c	/^int getCompactArray($/;"	f
+getCompactArrayItem	dlms.c	/^int getCompactArrayItem($/;"	f
+getCompactArrayItem2	dlms.c	/^int getCompactArrayItem2($/;"	f
+getCount	dlms.c	/^int getCount(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getDataTypes	dlms.c	/^int getDataTypes($/;"	f
+getDate	dlms.c	/^int getDate(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getDateFormat	date.c	/^int getDateFormat(GXDLMS_DATE_FORMAT* format, char* separator)$/;"	f
+getDateTime	dlms.c	/^int getDateTime(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getDouble	dlms.c	/^int getDouble(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getEnum	dlms.c	/^int getEnum(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getFloat	dlms.c	/^int getFloat(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getInt16	dlms.c	/^int getInt16(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getInt32	dlms.c	/^int getInt32(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getInt64	dlms.c	/^int getInt64(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getInt8	dlms.c	/^int getInt8(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getInterval	gxget.c	/^unsigned char getInterval(gxInterval* interval)$/;"	f
+getIntervals	gxget.c	/^int getIntervals(gxInterval* interval, gxByteBuffer* data)$/;"	f
+getKeepAlive	dlmsSettings.c	/^unsigned char getKeepAlive($/;"	f
+getLNAccessRights	gxget.c	/^int getLNAccessRights($/;"	f
+getLNObjects	gxget.c	/^int getLNObjects($/;"	f
+getNextSend	dlmsSettings.c	/^unsigned char getNextSend($/;"	f
+getOctetString	dlms.c	/^int getOctetString(gxByteBuffer* buff, gxDataInfo* info, unsigned char knownType, dlmsVARIANT* value)$/;"	f
+getProfileGenericData	gxget.c	/^int getProfileGenericData($/;"	f
+getReceiverReady	dlmsSettings.c	/^unsigned char getReceiverReady($/;"	f
+getSBoxInvert	gxaes.c	/^static unsigned char getSBoxInvert(unsigned char num)$/;"	f	file:
+getSBoxValue	gxaes.c	/^static unsigned char getSBoxValue(unsigned char num)$/;"	f	file:
+getSNAccessRights	gxget.c	/^int getSNAccessRights($/;"	f
+getSNObjects	gxget.c	/^int getSNObjects($/;"	f
+getSeason	gxget.c	/^int getSeason(gxBandDescriptor* season, gxByteBuffer* data)$/;"	f
+getSelectedColumns	gxget.c	/^int getSelectedColumns($/;"	f
+getString	dlms.c	/^int getString(gxByteBuffer* buff, gxDataInfo* info, unsigned char knownType, dlmsVARIANT* value)$/;"	f
+getTime	dlms.c	/^int getTime(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getUInt16	dlms.c	/^int getUInt16(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getUInt32	dlms.c	/^int getUInt32(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getUInt64	dlms.c	/^int getUInt64(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getUInt8	dlms.c	/^int getUInt8(gxByteBuffer* buff, gxDataInfo* info, dlmsVARIANT* value)$/;"	f
+getUnitCharge	gxget.c	/^int getUnitCharge(gxUnitCharge* target, gxValueEventArg* e)$/;"	f
+getUserList	gxget.c	/^int getUserList($/;"	f
+getUtfString	dlms.c	/^int getUtfString($/;"	f
+getValue	helpers.c	/^unsigned char getValue(char c)$/;"	f
+gxSNInfo	server.c	/^} gxSNInfo;$/;"	t	typeref:struct:__anon2	file:
+gxaes_cbc_decrypt	gxaes.c	/^void gxaes_cbc_decrypt(unsigned char* output, unsigned char* input, unsigned long length, const unsigned char* key, const unsigned char* iv)$/;"	f
+gxaes_cbc_encrypt	gxaes.c	/^void gxaes_cbc_encrypt(unsigned char* output, unsigned char* input, unsigned long length, const unsigned char* key, const unsigned char* iv)$/;"	f
+gxaes_ecb_decrypt	gxaes.c	/^void gxaes_ecb_decrypt(const unsigned char* input, const unsigned char* key, unsigned char *output, const unsigned long length)$/;"	f
+gxaes_ecb_encrypt	gxaes.c	/^void gxaes_ecb_encrypt(const unsigned char* input, const unsigned char* key, unsigned char* output, const unsigned long length)$/;"	f
+gxmd5_F	gxmd5.c	/^unsigned int gxmd5_F(unsigned int x, unsigned int y, unsigned int z)$/;"	f
+gxmd5_FF	gxmd5.c	/^void gxmd5_FF(unsigned long* a, unsigned long b, unsigned long c, unsigned long d, unsigned long x, unsigned long s, unsigned long ac)$/;"	f
+gxmd5_G	gxmd5.c	/^unsigned int gxmd5_G(unsigned int x, unsigned int y, unsigned int z)$/;"	f
+gxmd5_GG	gxmd5.c	/^void gxmd5_GG(unsigned long* a, unsigned long b, unsigned long c, unsigned long d, unsigned long x, unsigned long s, unsigned long ac) {$/;"	f
+gxmd5_H	gxmd5.c	/^unsigned int gxmd5_H(unsigned int x, unsigned int y, unsigned int z)$/;"	f
+gxmd5_HH	gxmd5.c	/^void gxmd5_HH(unsigned long* a, unsigned long b, unsigned long c, unsigned long d, unsigned long x, unsigned long s, unsigned long ac) {$/;"	f
+gxmd5_I	gxmd5.c	/^unsigned int gxmd5_I(unsigned long x, unsigned long y, unsigned long z)$/;"	f
+gxmd5_II	gxmd5.c	/^void gxmd5_II(unsigned long* a, unsigned long b, unsigned long c, unsigned long d, unsigned long x, unsigned long s, unsigned long ac) {$/;"	f
+gxmd5_decode	gxmd5.c	/^void gxmd5_decode(unsigned long* output, unsigned char* input, unsigned int len)$/;"	f
+gxmd5_encode	gxmd5.c	/^void gxmd5_encode(unsigned char* output, unsigned long* input, unsigned int len)$/;"	f
+gxmd5_encrypt	gxmd5.c	/^int gxmd5_encrypt(gxByteBuffer* data, gxByteBuffer* digest)$/;"	f
+gxmd5_rotate_left	gxmd5.c	/^unsigned int gxmd5_rotate_left(unsigned int x, int n)$/;"	f
+gxmd5_transform	gxmd5.c	/^void gxmd5_transform(unsigned char* block, unsigned long* state)$/;"	f
+gxmd5_update	gxmd5.c	/^int gxmd5_update(unsigned char* data, unsigned long len, unsigned char* buffer, unsigned long* count, unsigned long* state)$/;"	f
+gxmktime	date.c	/^time_t gxmktime(struct tm* value)$/;"	f
+gxsha1_encrypt	gxsha1.c	/^int gxsha1_encrypt(gxByteBuffer* data, gxByteBuffer* result)$/;"	f
+gxsha1_final	gxsha1.c	/^int gxsha1_final(gxByteBuffer* data, unsigned long* digest, unsigned long* transforms, gxByteBuffer* reply)$/;"	f
+gxsha1_transform	gxsha1.c	/^void gxsha1_transform(unsigned long* block, unsigned long* digest, unsigned long* transforms)$/;"	f
+gxsha1_update	gxsha1.c	/^void gxsha1_update(gxByteBuffer* data, unsigned long* digest, unsigned long* transforms)$/;"	f
+gxsha256_encrypt	gxsha256.c	/^int gxsha256_encrypt(gxByteBuffer* data, gxByteBuffer* digest)$/;"	f
+gxsha256_final	gxsha256.c	/^int gxsha256_final(unsigned long *h, unsigned char *block, unsigned char *digest, unsigned int len, unsigned int totalLen)$/;"	f
+gxsha256_transform	gxsha256.c	/^void gxsha256_transform(unsigned long *h, const unsigned char *message, unsigned int block_nb)$/;"	f
+gxsha256_update	gxsha256.c	/^int gxsha256_update(unsigned long *h, unsigned char *block, gxByteBuffer* data, unsigned int *len, unsigned int *totalLen)$/;"	f
+handleInactivityTimeout	server.c	/^int handleInactivityTimeout(dlmsServerSettings* settings)$/;"	f
+handleWriteResponse	dlms.c	/^int handleWriteResponse(gxReplyData* data)$/;"	f
+hlp_appendLogicalName	helpers.c	/^int hlp_appendLogicalName(gxByteBuffer* bb, const unsigned char value[6])$/;"	f
+hlp_bytesToHex	helpers.c	/^char* hlp_bytesToHex(const unsigned char* bytes, int count)$/;"	f
+hlp_bytesToHex2	helpers.c	/^int hlp_bytesToHex2(const unsigned char* bytes, unsigned short count, char* buff, unsigned short size)$/;"	f
+hlp_getDataTypeSize	helpers.c	/^int hlp_getDataTypeSize(DLMS_DATA_TYPE type)$/;"	f
+hlp_getErrorMessage	helpers.c	/^char* hlp_getErrorMessage(short err)$/;"	f
+hlp_getLogicalNameToString	helpers.c	/^int hlp_getLogicalNameToString(const unsigned char value[6], char* ln)$/;"	f
+hlp_getObjectCount	helpers.c	/^int hlp_getObjectCount(gxByteBuffer* buff)$/;"	f
+hlp_getObjectCount2	helpers.c	/^int hlp_getObjectCount2(gxByteBuffer* buff, unsigned short* count)$/;"	f
+hlp_getObjectCountSizeInBytes	helpers.c	/^unsigned char hlp_getObjectCountSizeInBytes(unsigned long count)$/;"	f
+hlp_getScaler	helpers.c	/^double hlp_getScaler(int scaler)$/;"	f
+hlp_hexToBytes	helpers.c	/^int hlp_hexToBytes($/;"	f
+hlp_hexToBytes2	helpers.c	/^int hlp_hexToBytes2($/;"	f
+hlp_int64ToString	helpers.c	/^int hlp_int64ToString(char* str, int bufsize, long long value, unsigned char isSigned)$/;"	f
+hlp_intToString	helpers.c	/^int hlp_intToString(char* str, int bufsize, long value, unsigned char isSigned, unsigned char digits)$/;"	f
+hlp_isBigEndian	helpers.c	/^unsigned char hlp_isBigEndian(void)$/;"	f
+hlp_parseLogicalName	helpers.c	/^int hlp_parseLogicalName(gxByteBuffer* value, unsigned char ln[6])$/;"	f
+hlp_printLogicalName	helpers.c	/^int hlp_printLogicalName(const char* format, const unsigned char value[6])$/;"	f
+hlp_rand	helpers.c	/^unsigned char hlp_rand(void)$/;"	f
+hlp_replace	helpers.c	/^void hlp_replace(gxByteBuffer* str, char oldCh, char newCh)$/;"	f
+hlp_setLogicalName	helpers.c	/^int hlp_setLogicalName(unsigned char ln[6], const char* name)$/;"	f
+hlp_setLogicalName2	helpers.c	/^int hlp_setLogicalName2(dlmsVARIANT* ln, const char* name)$/;"	f
+hlp_setObjectCount	helpers.c	/^int hlp_setObjectCount(unsigned long count, gxByteBuffer* buff)$/;"	f
+hlp_stringToInt	helpers.c	/^long hlp_stringToInt(const char* str)$/;"	f
+hlp_stringToInt64	helpers.c	/^long long hlp_stringToInt64(const char* str)$/;"	f
+hlp_trace	helpers.c	/^void hlp_trace(unsigned char* data, int index, int count, unsigned char send)$/;"	f
+increaseReceiverSequence	dlmsSettings.c	/^unsigned char increaseReceiverSequence($/;"	f
+increaseSendSequence	dlmsSettings.c	/^unsigned char increaseSendSequence($/;"	f
+index	server.c	/^    unsigned char index;$/;"	m	struct:__anon2	file:
+init_ProtectionParameter	gxobjects.c	/^void init_ProtectionParameter(gxProtectionParameter* target)$/;"	f
+invoke_AssociationLogicalName	gxinvoke.c	/^int invoke_AssociationLogicalName($/;"	f
+invoke_AssociationShortName	gxinvoke.c	/^int invoke_AssociationShortName($/;"	f
+invoke_Charge	gxinvoke.c	/^int invoke_Charge($/;"	f
+invoke_Clock	gxinvoke.c	/^int invoke_Clock(gxClock* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+invoke_CompactData	gxinvoke.c	/^int invoke_CompactData($/;"	f
+invoke_Credit	gxinvoke.c	/^int invoke_Credit($/;"	f
+invoke_ExtendedRegister	gxinvoke.c	/^int invoke_ExtendedRegister($/;"	f
+invoke_ImageTransfer	gxinvoke.c	/^int invoke_ImageTransfer($/;"	f
+invoke_ProfileGeneric	gxinvoke.c	/^int invoke_ProfileGeneric($/;"	f
+invoke_Register	gxinvoke.c	/^int invoke_Register($/;"	f
+invoke_SapAssigment	gxinvoke.c	/^int invoke_SapAssigment($/;"	f
+invoke_ScriptTable	gxinvoke.c	/^int invoke_ScriptTable(dlmsServerSettings* settings, gxValueEventArg* e)$/;"	f
+invoke_SecuritySetup	gxinvoke.c	/^int invoke_SecuritySetup(dlmsServerSettings* settings, gxSecuritySetup* target, gxValueEventArg* e)$/;"	f
+invoke_gxTokenGateway	gxinvoke.c	/^int invoke_gxTokenGateway($/;"	f
+invoke_zigbeeNetworkControl	gxinvoke.c	/^int invoke_zigbeeNetworkControl(gxZigBeeNetworkControl* object, unsigned char index, dlmsVARIANT* value)$/;"	f
+isCiphered	dlmsSettings.c	/^unsigned char isCiphered($/;"	f
+item	server.c	/^    gxObject* item;$/;"	m	struct:__anon2	file:
+keyExpSize	gxaes.c	46;"	d	file:
+keyExpSize	gxaes.c	51;"	d	file:
+keyExpSize	gxaes.c	56;"	d	file:
+key_init	gxkey.c	/^gxKey* key_init(void* key, void* value)$/;"	f
+key_init2	gxkey.c	/^gxKey2* key_init2(unsigned char key, void* value)$/;"	f
+lfsr	helpers.c	/^unsigned short lfsr = 0xACE1u;$/;"	v
+mes_attach	message.c	/^void mes_attach(message* mes, gxByteBuffer **data, unsigned char capacity)$/;"	f
+mes_clear	message.c	/^void mes_clear(message* mes)$/;"	f
+mes_init	message.c	/^void mes_init(message* mes)$/;"	f
+mes_push	message.c	/^void mes_push(message * mes, gxByteBuffer* item)$/;"	f
+notify_addData	notify.c	/^int notify_addData($/;"	f
+notify_generateDataNotificationMessages	notify.c	/^int notify_generateDataNotificationMessages($/;"	f
+notify_generateDataNotificationMessages2	notify.c	/^int notify_generateDataNotificationMessages2($/;"	f
+notify_generatePushSetupMessages	notify.c	/^int notify_generatePushSetupMessages($/;"	f
+notify_getData	notify.c	/^int notify_getData($/;"	f
+notify_parsePush	notify.c	/^int notify_parsePush($/;"	f
+oa_attach	objectarray.c	/^void oa_attach(objectArray* arr, gxObject** item, unsigned short count)$/;"	f
+oa_capacity	objectarray.c	/^int oa_capacity(objectArray* arr, const unsigned short capacity)$/;"	f
+oa_clear	objectarray.c	/^void oa_clear(objectArray* arr)$/;"	f
+oa_clear2	objectarray.c	/^void oa_clear2($/;"	f
+oa_copy	objectarray.c	/^void oa_copy(objectArray* target, objectArray* source)$/;"	f
+oa_empty	objectarray.c	/^void oa_empty(objectArray* arr)$/;"	f
+oa_findByLN	objectarray.c	/^int oa_findByLN($/;"	f
+oa_findBySN	objectarray.c	/^int oa_findBySN($/;"	f
+oa_getByIndex	objectarray.c	/^int oa_getByIndex($/;"	f
+oa_getCapacity	objectarray.c	/^unsigned short oa_getCapacity(objectArray* arr)$/;"	f
+oa_getObjects	objectarray.c	/^int oa_getObjects(objectArray* src, DLMS_OBJECT_TYPE type, objectArray* objects)$/;"	f
+oa_getObjects2	objectarray.c	/^int oa_getObjects2($/;"	f
+oa_init	objectarray.c	/^void oa_init(objectArray * arr)$/;"	f
+oa_isAttached	objectarray.c	/^char oa_isAttached(objectArray* arr)$/;"	f
+oa_push	objectarray.c	/^int oa_push(objectArray* arr, gxObject* item)$/;"	f
+oa_verify	objectarray.c	/^int oa_verify(objectArray* arr)$/;"	f
+obj_CaptureObjectsToString	converters.c	/^int obj_CaptureObjectsToString(gxByteBuffer* ba, gxArray* objects)$/;"	f
+obj_CompactDataToString	converters.c	/^int obj_CompactDataToString(gxCompactData* object, char** buff)$/;"	f
+obj_DataToString	converters.c	/^int obj_DataToString(gxData* object, char** buff)$/;"	f
+obj_GPRSSetupToString	converters.c	/^int obj_GPRSSetupToString(gxGPRSSetup* object, char** buff)$/;"	f
+obj_GsmDiagnosticToString	converters.c	/^int obj_GsmDiagnosticToString(gxGsmDiagnostic* object, char** buff)$/;"	f
+obj_LlcSscsSetupToString	converters.c	/^int obj_LlcSscsSetupToString(gxLlcSscsSetup* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcApplicationsIdentificationToString	converters.c	/^int  obj_PrimeNbOfdmPlcApplicationsIdentificationToString(gxPrimeNbOfdmPlcApplicationsIdentification* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcMacCountersToString	converters.c	/^int  obj_PrimeNbOfdmPlcMacCountersToString(gxPrimeNbOfdmPlcMacCounters* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcMacFunctionalParametersToString	converters.c	/^int  obj_PrimeNbOfdmPlcMacFunctionalParametersToString(gxPrimeNbOfdmPlcMacFunctionalParameters* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcMacNetworkAdministrationDataToString	converters.c	/^int  obj_PrimeNbOfdmPlcMacNetworkAdministrationDataToString(gxPrimeNbOfdmPlcMacNetworkAdministrationData* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcMacSetupToString	converters.c	/^int  obj_PrimeNbOfdmPlcMacSetupToString(gxPrimeNbOfdmPlcMacSetup* object, char** buff)$/;"	f
+obj_PrimeNbOfdmPlcPhysicalLayerCountersToString	converters.c	/^int obj_PrimeNbOfdmPlcPhysicalLayerCountersToString(gxPrimeNbOfdmPlcPhysicalLayerCounters* object, char** buff)$/;"	f
+obj_ProfileGenericToString	converters.c	/^int obj_ProfileGenericToString(gxProfileGeneric* object, char** buff)$/;"	f
+obj_RegisterToString	converters.c	/^int obj_RegisterToString(gxRegister* object, char** buff)$/;"	f
+obj_ScriptTableToString	converters.c	/^int obj_ScriptTableToString(gxScriptTable* object, char** buff)$/;"	f
+obj_TariffPlanToString	converters.c	/^int obj_TariffPlanToString(gxTariffPlan* object, char** buff)$/;"	f
+obj_TcpUdpSetupToString	converters.c	/^int obj_TcpUdpSetupToString(gxTcpUdpSetup* object, char** buff)$/;"	f
+obj_UtilityTablesToString	converters.c	/^int obj_UtilityTablesToString(gxUtilityTables* object, char** buff)$/;"	f
+obj_accountToString	converters.c	/^int obj_accountToString(gxAccount* object, char** buff)$/;"	f
+obj_actionScheduleToString	converters.c	/^int obj_actionScheduleToString(gxActionSchedule* object, char** buff)$/;"	f
+obj_activityCalendarToString	converters.c	/^int obj_activityCalendarToString(gxActivityCalendar* object, char** buff)$/;"	f
+obj_applicationContextNameToString	converters.c	/^void obj_applicationContextNameToString(gxByteBuffer* ba, gxApplicationContextName* object)$/;"	f
+obj_associationLogicalNameToString	converters.c	/^int obj_associationLogicalNameToString(gxAssociationLogicalName* object, char** buff)$/;"	f
+obj_associationShortNameToString	converters.c	/^int obj_associationShortNameToString(gxAssociationShortName* object, char** buff)$/;"	f
+obj_attributeCount	gxobjects.c	/^unsigned char obj_attributeCount(gxObject* object)$/;"	f
+obj_authenticationMechanismNameToString	converters.c	/^void obj_authenticationMechanismNameToString(gxByteBuffer* ba, gxAuthenticationMechanismName* object)$/;"	f
+obj_autoAnswerToString	converters.c	/^int obj_autoAnswerToString(gxAutoAnswer* object, char** buff)$/;"	f
+obj_autoConnectToString	converters.c	/^int obj_autoConnectToString(gxAutoConnect* object, char** buff)$/;"	f
+obj_chargeToString	converters.c	/^int obj_chargeToString(gxCharge* object, char** buff)$/;"	f
+obj_clear	gxobjects.c	/^void obj_clear(gxObject* object)$/;"	f
+obj_clearActiveDevices	gxobjects.c	/^int obj_clearActiveDevices(gxArray* list)$/;"	f
+obj_clearAvailableSwitches	gxobjects.c	/^int obj_clearAvailableSwitches($/;"	f
+obj_clearCertificateInfo	gxobjects.c	/^int obj_clearCertificateInfo(gxArray* arr)$/;"	f
+obj_clearChargeTables	gxobjects.c	/^int obj_clearChargeTables(gxArray* list)$/;"	f
+obj_clearCreditChargeConfigurations	gxobjects.c	/^int obj_clearCreditChargeConfigurations(gxArray* list)$/;"	f
+obj_clearDayProfileTable	gxobjects.c	/^int obj_clearDayProfileTable(gxArray* list)$/;"	f
+obj_clearIP4SetupOptions	gxobjects.c	/^int obj_clearIP4SetupOptions(gxArray* list)$/;"	f
+obj_clearModemConfigurationInitialisationStrings	gxobjects.c	/^int obj_clearModemConfigurationInitialisationStrings(gxArray* list)$/;"	f
+obj_clearPPPSetupIPCPOptions	gxobjects.c	/^int obj_clearPPPSetupIPCPOptions(gxArray* list)$/;"	f
+obj_clearPPPSetupLCPOptions	gxobjects.c	/^int obj_clearPPPSetupLCPOptions(gxArray* list)$/;"	f
+obj_clearParametersList	gxobjects.c	/^int obj_clearParametersList(gxArray* buffer)$/;"	f
+obj_clearProfileGenericBuffer	gxobjects.c	/^int obj_clearProfileGenericBuffer(gxArray* buffer)$/;"	f
+obj_clearProfileGenericCaptureObjects	gxobjects.c	/^int obj_clearProfileGenericCaptureObjects(gxArray* captureObjects)$/;"	f
+obj_clearPushObjectList	gxobjects.c	/^int obj_clearPushObjectList(gxArray* buffer)$/;"	f
+obj_clearRegisterActivationAssignment	gxobjects.c	/^int obj_clearRegisterActivationAssignment(gxArray* list)$/;"	f
+obj_clearRegisterActivationAssignment	gxobjects.c	/^int obj_clearRegisterActivationAssignment(objectArray* list)$/;"	f
+obj_clearRegisterActivationMaskList	gxobjects.c	/^int obj_clearRegisterActivationMaskList(gxArray* list)$/;"	f
+obj_clearRegisterMonitorActions	gxobjects.c	/^int obj_clearRegisterMonitorActions(gxArray* list)$/;"	f
+obj_clearSapList	gxobjects.c	/^int obj_clearSapList(gxArray* buffer)$/;"	f
+obj_clearScriptTable	gxobjects.c	/^int obj_clearScriptTable(gxArray* list)$/;"	f
+obj_clearSeasonProfile	gxobjects.c	/^int obj_clearSeasonProfile(gxArray* list)$/;"	f
+obj_clearTokenGatewayConfigurations	gxobjects.c	/^int obj_clearTokenGatewayConfigurations(gxArray* list)$/;"	f
+obj_clearUserList	gxobjects.c	/^int obj_clearUserList(gxArray* list)$/;"	f
+obj_clearWeekProfileTable	gxobjects.c	/^int obj_clearWeekProfileTable(gxArray* list)$/;"	f
+obj_clockToString	converters.c	/^int obj_clockToString(gxClock* object, char** buff)$/;"	f
+obj_creditToString	converters.c	/^int obj_creditToString(gxCredit* object, char** buff)$/;"	f
+obj_dayProfileToString	converters.c	/^int obj_dayProfileToString(gxArray* arr, gxByteBuffer* ba)$/;"	f
+obj_demandRegisterToString	converters.c	/^int obj_demandRegisterToString(gxDemandRegister* object, char** buff)$/;"	f
+obj_disconnectControlToString	converters.c	/^int obj_disconnectControlToString(gxDisconnectControl* object, char** buff)$/;"	f
+obj_extendedRegisterToString	converters.c	/^int obj_extendedRegisterToString(gxExtendedRegister* object, char** buff)$/;"	f
+obj_getAttributeIndexToRead	gxobjects.c	/^int obj_getAttributeIndexToRead(gxObject* object, gxByteBuffer* ba)$/;"	f
+obj_getLogicalName	gxobjects.c	/^const unsigned char* obj_getLogicalName(gxObject* target)$/;"	f
+obj_getUnitAsString	converters.c	/^const char* obj_getUnitAsString(unsigned char unit)$/;"	f
+obj_hdlcSetupToString	converters.c	/^int obj_hdlcSetupToString(gxIecHdlcSetup* object, char** buff)$/;"	f
+obj_imageTransferToString	converters.c	/^int obj_imageTransferToString(gxImageTransfer* object, char** buff)$/;"	f
+obj_ip4SetupToString	converters.c	/^int obj_ip4SetupToString(gxIp4Setup* object, char** buff)$/;"	f
+obj_limiterToString	converters.c	/^int obj_limiterToString(gxLimiter* object, char** buff)$/;"	f
+obj_localPortSetupToString	converters.c	/^int obj_localPortSetupToString(gxLocalPortSetup* object, char** buff)$/;"	f
+obj_mBusClientToString	converters.c	/^int obj_mBusClientToString(gxMBusClient* object, char** buff)$/;"	f
+obj_mBusMasterPortSetupToString	converters.c	/^int obj_mBusMasterPortSetupToString(gxMBusMasterPortSetup* object, char** buff)$/;"	f
+obj_macAddressSetupToString	converters.c	/^int obj_macAddressSetupToString(gxMacAddressSetup* object, char** buff)$/;"	f
+obj_mbusSlavePortSetupToString	converters.c	/^int obj_mbusSlavePortSetupToString(gxMbusSlavePortSetup* object, char** buff)$/;"	f
+obj_messageHandlerToString	converters.c	/^int obj_messageHandlerToString($/;"	f
+obj_methodCount	gxobjects.c	/^unsigned char obj_methodCount(gxObject* object)$/;"	f
+obj_modemConfigurationToString	converters.c	/^int obj_modemConfigurationToString(gxModemConfiguration* object, char** buff)$/;"	f
+obj_objectsToString	converters.c	/^int obj_objectsToString(gxByteBuffer* ba, objectArray* objects)$/;"	f
+obj_pppSetupToString	converters.c	/^int obj_pppSetupToString(gxPppSetup* object, char** buff)$/;"	f
+obj_pushSetupToString	converters.c	/^int obj_pushSetupToString(gxPushSetup* object, char** buff)$/;"	f
+obj_registerActivationToString	converters.c	/^int obj_registerActivationToString(gxRegisterActivation* object, char** buff)$/;"	f
+obj_registerMonitorToString	converters.c	/^int obj_registerMonitorToString(gxRegisterMonitor* object, char** buff)$/;"	f
+obj_rowsToString	converters.c	/^int obj_rowsToString(gxByteBuffer* ba, gxArray* buffer)$/;"	f
+obj_sapAssignmentToString	converters.c	/^int obj_sapAssignmentToString(gxSapAssignment* object, char** buff)$/;"	f
+obj_seasonProfileToString	converters.c	/^int obj_seasonProfileToString(gxArray* arr, gxByteBuffer* ba)$/;"	f
+obj_securitySetupToString	converters.c	/^int obj_securitySetupToString(gxSecuritySetup* object, char** buff)$/;"	f
+obj_specialDaysTableToString	converters.c	/^int obj_specialDaysTableToString(gxSpecialDaysTable* object, char** buff)$/;"	f
+obj_toString	converters.c	/^int obj_toString(gxObject* object, char** buff)$/;"	f
+obj_tokenGatewayToString	converters.c	/^int obj_tokenGatewayToString($/;"	f
+obj_typeToString	converters.c	/^int obj_typeToString(DLMS_OBJECT_TYPE type, char* buff)$/;"	f
+obj_updateAttributeAccessModes	gxobjects.c	/^int obj_updateAttributeAccessModes(gxObject* object, variantArray* arr)$/;"	f
+obj_weekProfileToString	converters.c	/^int obj_weekProfileToString(gxArray* arr, gxByteBuffer* ba)$/;"	f
+obj_xDLMSContextTypeToString	converters.c	/^void obj_xDLMSContextTypeToString(gxByteBuffer* ba, gxXDLMSContextType* object)$/;"	f
+params_initLN	parameters.c	/^void params_initLN($/;"	f
+params_initSN	parameters.c	/^void params_initSN($/;"	f
+pduAttributes	dlms.c	/^unsigned char pduAttributes[PDU_MAX_HEADER_SIZE];$/;"	v
+profileGeneric_getData	gxget.c	/^int profileGeneric_getData($/;"	f
+qualityOfServiceToString	converters.c	/^void qualityOfServiceToString(gxQualityOfService* target, gxByteBuffer* ba)$/;"	f
+reply_clear	replydata.c	/^void reply_clear(gxReplyData* reply)$/;"	f
+reply_clear2	replydata.c	/^void reply_clear2(gxReplyData* reply, unsigned char clearData)$/;"	f
+reply_init	replydata.c	/^void reply_init(gxReplyData* reply)$/;"	f
+reply_isMoreData	replydata.c	/^unsigned char reply_isMoreData(gxReplyData* reply)$/;"	f
+resetBlockIndex	dlmsSettings.c	/^void resetBlockIndex($/;"	f
+resetFrameSequence	dlmsSettings.c	/^void resetFrameSequence($/;"	f
+rsbox	gxaes.c	/^static const unsigned char rsbox[256] = {$/;"	v	file:
+sbox	gxaes.c	/^static const unsigned char sbox[256] = {$/;"	v	file:
+setCaptureObjects	gxset.c	/^int setCaptureObjects($/;"	f
+setUnitCharge	gxset.c	/^int setUnitCharge(dlmsSettings* settings, gxUnitCharge* target, dlmsVARIANT* value)$/;"	f
+sha256_k	gxsha256.c	/^const unsigned long sha256_k[64] =$/;"	v
+shift_right_block	ciphering.c	/^static void shift_right_block(unsigned char* v)$/;"	f	file:
+state	gxaes.c	/^static state_t* state;$/;"	v	file:
+state_t	gxaes.c	/^typedef unsigned char state_t[4][4];$/;"	t	file:
+svr_HandleAarqRequest	server.c	/^int svr_HandleAarqRequest($/;"	f
+svr_clear	dlmsSettings.c	/^void svr_clear($/;"	f
+svr_copyAssociationView	server.c	/^void svr_copyAssociationView(objectArray* target, objectArray* source)$/;"	f
+svr_findSNObject	server.c	/^int svr_findSNObject(dlmsServerSettings* settings, int sn, gxSNInfo* i)$/;"	f
+svr_generateConfirmedServiceError	server.c	/^int svr_generateConfirmedServiceError($/;"	f
+svr_generateDisconnectRequest	server.c	/^int svr_generateDisconnectRequest($/;"	f
+svr_getReadData	server.c	/^int svr_getReadData($/;"	f
+svr_getRequestNextDataBlock	server.c	/^int svr_getRequestNextDataBlock($/;"	f
+svr_getRequestNormal	server.c	/^int svr_getRequestNormal($/;"	f
+svr_getRequestWithList	server.c	/^int svr_getRequestWithList($/;"	f
+svr_handleCommand	server.c	/^int svr_handleCommand($/;"	f
+svr_handleGetRequest	server.c	/^int svr_handleGetRequest($/;"	f
+svr_handleMethodRequest	server.c	/^int svr_handleMethodRequest($/;"	f
+svr_handleRead	server.c	/^int svr_handleRead($/;"	f
+svr_handleReadBlockNumberAccess	server.c	/^int svr_handleReadBlockNumberAccess($/;"	f
+svr_handleReadDataBlockAccess	server.c	/^int svr_handleReadDataBlockAccess($/;"	f
+svr_handleReadRequest	server.c	/^int svr_handleReadRequest($/;"	f
+svr_handleReleaseRequest	server.c	/^int svr_handleReleaseRequest($/;"	f
+svr_handleRequest	server.c	/^int svr_handleRequest($/;"	f
+svr_handleRequest2	server.c	/^int svr_handleRequest2($/;"	f
+svr_handleRequest3	server.c	/^int svr_handleRequest3($/;"	f
+svr_handleSetRequest	server.c	/^int svr_handleSetRequest($/;"	f
+svr_handleSetRequest2	server.c	/^int svr_handleSetRequest2($/;"	f
+svr_handleSnrmRequest	server.c	/^int svr_handleSnrmRequest($/;"	f
+svr_handleWriteRequest	server.c	/^int svr_handleWriteRequest($/;"	f
+svr_hanleSetRequestWithDataBlock	server.c	/^int svr_hanleSetRequestWithDataBlock($/;"	f
+svr_init	dlmsSettings.c	/^void svr_init($/;"	f
+svr_initialize	server.c	/^int svr_initialize($/;"	f
+svr_reportError	server.c	/^int svr_reportError($/;"	f
+svr_reset	server.c	/^void svr_reset($/;"	f
+svr_returnSNError	server.c	/^int svr_returnSNError($/;"	f
+svr_run	server.c	/^int svr_run($/;"	f
+svr_setInitialize	server.c	/^void svr_setInitialize(dlmsServerSettings* settings)$/;"	f
+svr_updateShortNames	server.c	/^int svr_updateShortNames($/;"	f
+time_addDays	date.c	/^void time_addDays($/;"	f
+time_addHours	date.c	/^void time_addHours($/;"	f
+time_addMinutes	date.c	/^void time_addMinutes($/;"	f
+time_addSeconds	date.c	/^void time_addSeconds($/;"	f
+time_addTime	date.c	/^void time_addTime($/;"	f
+time_clear	date.c	/^void time_clear($/;"	f
+time_clearDate	date.c	/^void time_clearDate($/;"	f
+time_clearHours	date.c	/^void time_clearHours(gxtime* value)$/;"	f
+time_clearMinutes	date.c	/^void time_clearMinutes(gxtime* value)$/;"	f
+time_clearSeconds	date.c	/^void time_clearSeconds(gxtime* value)$/;"	f
+time_clearTime	date.c	/^void time_clearTime($/;"	f
+time_compare	date.c	/^int time_compare($/;"	f
+time_compare2	date.c	/^int time_compare2($/;"	f
+time_compareWithDiff	date.c	/^int time_compareWithDiff($/;"	f
+time_copy	date.c	/^void time_copy($/;"	f
+time_dayOfWeek	date.c	/^unsigned char time_dayOfWeek($/;"	f
+time_fromUnixTime	date.c	/^int time_fromUnixTime(unsigned long epoch, struct tm* time)$/;"	f
+time_fromUnixTime2	date.c	/^int time_fromUnixTime2($/;"	f
+time_fromUnixTime3	date.c	/^int time_fromUnixTime3($/;"	f
+time_getDays	date.c	/^unsigned char time_getDays($/;"	f
+time_getDeviation	date.c	/^int time_getDeviation(gxtime* value1)$/;"	f
+time_getHours	date.c	/^unsigned char time_getHours($/;"	f
+time_getMinutes	date.c	/^unsigned char time_getMinutes($/;"	f
+time_getMonths	date.c	/^unsigned char time_getMonths($/;"	f
+time_getSeconds	date.c	/^unsigned char time_getSeconds($/;"	f
+time_getUtcOffset	date.c	/^void time_getUtcOffset(short* hours, short* minutes)$/;"	f
+time_getYears	date.c	/^unsigned short time_getYears($/;"	f
+time_init	date.c	/^void time_init($/;"	f
+time_init2	date.c	/^void time_init2($/;"	f
+time_init3	date.c	/^void time_init3($/;"	f
+time_initUnix	date.c	/^void time_initUnix($/;"	f
+time_print	date.c	/^int time_print(const char* format, gxtime* time)$/;"	f
+time_toString	date.c	/^int time_toString($/;"	f
+time_toString2	date.c	/^int time_toString2($/;"	f
+time_toUTC	date.c	/^int time_toUTC(gxtime* value)$/;"	f
+time_toUnixTime	date.c	/^unsigned long time_toUnixTime(struct tm* time)$/;"	f
+time_toUnixTime2	date.c	/^unsigned long time_toUnixTime2(gxtime* time)$/;"	f
+trans_clear	dlmsSettings.c	/^void trans_clear(gxLongTransaction* trans)$/;"	f
+trans_init	dlmsSettings.c	/^void trans_init(gxLongTransaction* trans)$/;"	f
+updateDayProfileTableActive	gxset.c	/^int updateDayProfileTableActive(dlmsSettings* settings, gxArray* profile, dlmsVARIANT* data)$/;"	f
+updateIntervals	gxset.c	/^int updateIntervals(gxInterval* interval, gxByteBuffer* value)$/;"	f
+updateInvokeId	dlmsSettings.c	/^void updateInvokeId($/;"	f
+updateSNAccessRights	gxset.c	/^int updateSNAccessRights($/;"	f
+updateSeason	gxset.c	/^int updateSeason(gxBandDescriptor* season, variantArray* value)$/;"	f
+updateSeasonProfile	gxset.c	/^int updateSeasonProfile(gxArray* profile, dlmsVARIANT* data)$/;"	f
+updateWeekProfileTable	gxset.c	/^int updateWeekProfileTable(gxArray* profile, dlmsVARIANT* data)$/;"	f
+useDedicatedKey	apdu.c	/^unsigned char useDedicatedKey(dlmsSettings* settings)$/;"	f
+va_attach	variant.c	/^void va_attach($/;"	f
+va_attach2	variant.c	/^void va_attach2($/;"	f
+va_capacity	variant.c	/^int va_capacity(variantArray* arr, unsigned short capacity)$/;"	f
+va_clear	variant.c	/^void va_clear($/;"	f
+va_copyArray	variant.c	/^int va_copyArray($/;"	f
+va_getByIndex	variant.c	/^int va_getByIndex(variantArray* arr, int index, dlmsVARIANT_PTR* item)$/;"	f
+va_getCapacity	variant.c	/^unsigned short va_getCapacity(variantArray* arr)$/;"	f
+va_init	variant.c	/^void va_init(variantArray* arr)$/;"	f
+va_isAttached	variant.c	/^char va_isAttached(variantArray* arr)$/;"	f
+va_print	variant.c	/^int va_print($/;"	f
+va_push	variant.c	/^int va_push(variantArray* arr, dlmsVARIANT* item)$/;"	f
+va_toString	variant.c	/^int va_toString($/;"	f
+var_addByteArray	variant.c	/^int var_addByteArray($/;"	f
+var_addBytes	variant.c	/^int var_addBytes(dlmsVARIANT* data, const unsigned char* value, unsigned short count)$/;"	f
+var_addOctetString	variant.c	/^int var_addOctetString($/;"	f
+var_attach	variant.c	/^void var_attach($/;"	f
+var_attachArray	variant.c	/^void var_attachArray(dlmsVARIANT* data,$/;"	f
+var_attachStructure	variant.c	/^void var_attachStructure(dlmsVARIANT* data,$/;"	f
+var_byRef	variant.c	/^int var_byRef(dlmsVARIANT* target, DLMS_DATA_TYPE type, void* value)$/;"	f
+var_changeType	variant.c	/^int var_changeType(dlmsVARIANT* value, DLMS_DATA_TYPE newType)$/;"	f
+var_clear	variant.c	/^int var_clear(dlmsVARIANT* data)$/;"	f
+var_copy	variant.c	/^int var_copy(dlmsVARIANT* target, dlmsVARIANT* source)$/;"	f
+var_getBytes	variant.c	/^int var_getBytes($/;"	f
+var_getBytes2	variant.c	/^int var_getBytes2($/;"	f
+var_getDate	variant.c	/^int var_getDate($/;"	f
+var_getDateTime	variant.c	/^int var_getDateTime(dlmsVARIANT* target, gxtime* value)$/;"	f
+var_getDateTime2	variant.c	/^int var_getDateTime2($/;"	f
+var_getInt16	variant.c	/^int var_getInt16(dlmsVARIANT* data, short* value)$/;"	f
+var_getInt32	variant.c	/^int var_getInt32(dlmsVARIANT* data, long* value)$/;"	f
+var_getInt64	variant.c	/^int var_getInt64(dlmsVARIANT* data, long long* value)$/;"	f
+var_getInt8	variant.c	/^int var_getInt8(dlmsVARIANT* data, char* value)$/;"	f
+var_getSize	variant.c	/^int var_getSize(DLMS_DATA_TYPE vt)$/;"	f
+var_getTime	variant.c	/^int var_getTime($/;"	f
+var_getUInt16	variant.c	/^int var_getUInt16(dlmsVARIANT* data, unsigned short* value)$/;"	f
+var_getUInt32	variant.c	/^int var_getUInt32(dlmsVARIANT* data, unsigned long* value)$/;"	f
+var_getUInt64	variant.c	/^int var_getUInt64(dlmsVARIANT* data, unsigned long long* value)$/;"	f
+var_getUInt8	variant.c	/^int var_getUInt8(dlmsVARIANT* data, unsigned char* value)$/;"	f
+var_init	variant.c	/^int var_init(dlmsVARIANT* data)$/;"	f
+var_print	variant.c	/^int var_print(const char* format, dlmsVARIANT* target)$/;"	f
+var_setBoolean	variant.c	/^int var_setBoolean(dlmsVARIANT* target, char value)$/;"	f
+var_setDate	variant.c	/^int var_setDate(dlmsVARIANT* target, gxtime* value)$/;"	f
+var_setDateAsOctetString	variant.c	/^int var_setDateAsOctetString($/;"	f
+var_setDateTime	variant.c	/^int var_setDateTime(dlmsVARIANT* target, gxtime* value)$/;"	f
+var_setDateTimeAsOctetString	variant.c	/^int var_setDateTimeAsOctetString($/;"	f
+var_setDouble	variant.c	/^int var_setDouble(dlmsVARIANT* data, double value)$/;"	f
+var_setEnum	variant.c	/^int var_setEnum(dlmsVARIANT* data, unsigned char value)$/;"	f
+var_setInt16	variant.c	/^int var_setInt16(dlmsVARIANT* data, short value)$/;"	f
+var_setInt32	variant.c	/^int var_setInt32(dlmsVARIANT* data, long value)$/;"	f
+var_setInt64	variant.c	/^int var_setInt64(dlmsVARIANT* data, long long value)$/;"	f
+var_setInt8	variant.c	/^int var_setInt8(dlmsVARIANT* data, char value)$/;"	f
+var_setOctetString	variant.c	/^int var_setOctetString(gxByteBuffer* buff, dlmsVARIANT* value)$/;"	f
+var_setString	variant.c	/^int var_setString(dlmsVARIANT* data, const char* value, unsigned short count)$/;"	f
+var_setTime	variant.c	/^int var_setTime(dlmsVARIANT* target, gxtime* value)$/;"	f
+var_setTimeAsOctetString	variant.c	/^int var_setTimeAsOctetString($/;"	f
+var_setUInt16	variant.c	/^int var_setUInt16(dlmsVARIANT* data, unsigned short value)$/;"	f
+var_setUInt32	variant.c	/^int var_setUInt32(dlmsVARIANT* data, unsigned long value)$/;"	f
+var_setUInt64	variant.c	/^int var_setUInt64(dlmsVARIANT* data, unsigned long long value)$/;"	f
+var_setUInt8	variant.c	/^int var_setUInt8(dlmsVARIANT* data, unsigned char value)$/;"	f
+var_toDouble	variant.c	/^double var_toDouble(dlmsVARIANT* target)$/;"	f
+var_toInteger	variant.c	/^int var_toInteger(dlmsVARIANT* data)$/;"	f
+var_toString	variant.c	/^int var_toString(dlmsVARIANT* item, gxByteBuffer* value)$/;"	f
+ve_clear	gxvalueeventargs.c	/^void ve_clear(gxValueEventArg * ve)$/;"	f
+ve_init	gxvalueeventargs.c	/^void ve_init(gxValueEventArg * ve)$/;"	f
+vec_attach	gxvalueeventargs.c	/^void vec_attach($/;"	f
+vec_capacity	gxvalueeventargs.c	/^int vec_capacity(gxValueEventCollection* arr, unsigned char capacity)$/;"	f
+vec_clear	gxvalueeventargs.c	/^void vec_clear($/;"	f
+vec_empty	gxvalueeventargs.c	/^void vec_empty($/;"	f
+vec_getByIndex	gxvalueeventargs.c	/^int vec_getByIndex(gxValueEventCollection* arr, int index, gxValueEventArg** value)$/;"	f
+vec_getCapacity	gxvalueeventargs.c	/^unsigned char vec_getCapacity(gxValueEventCollection* arr)$/;"	f
+vec_init	gxvalueeventargs.c	/^void vec_init(gxValueEventCollection* arr)$/;"	f
+vec_isAttached	gxvalueeventargs.c	/^char vec_isAttached(gxValueEventCollection* arr)$/;"	f
+vec_push	gxvalueeventargs.c	/^int vec_push(gxValueEventCollection * arr, gxValueEventArg* item)$/;"	f
+xtime	gxaes.c	/^static unsigned char xtime(unsigned char x)$/;"	f	file:

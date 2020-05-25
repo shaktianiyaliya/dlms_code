@@ -1,0 +1,79 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+BINDIR	makefile	/^BINDIR   = bin$/;"	m
+CC	makefile	/^CC       = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS   = -std=gnu99 -Wall -I.$/;"	m
+COMMUNICATION_H	include/communication.h	18;"	d
+GETOPT_H__	include/getopt.h	21;"	d
+INCLUDES	makefile	/^INCLUDES := $(wildcard $(SRCDIR)\/*.h)$/;"	m
+INVALID_HANDLE_VALUE	src/communication.c	26;"	d	file:
+LFLAGS	makefile	/^LFLAGS   = -L..\/development\/lib$/;"	m
+LINKER	makefile	/^LINKER   = gcc -o$/;"	m
+MEDIA_H	include/connection.h	18;"	d
+OBJDIR	makefile	/^OBJDIR   = obj$/;"	m
+OBJECTS	makefile	/^OBJECTS  := $(SOURCES:$(SRCDIR)\/%.c=$(OBJDIR)\/%.o)$/;"	m
+RECEIVE_BUFFER_SIZE	include/connection.h	/^static const unsigned int RECEIVE_BUFFER_SIZE = 200;$/;"	v
+SOURCES	makefile	/^SOURCES  := $(wildcard $(SRCDIR)\/*.c)$/;"	m
+SRCDIR	makefile	/^SRCDIR   = src$/;"	m
+ShowHelp	src/main.c	/^static void ShowHelp()$/;"	f	file:
+TARGET	makefile	/^TARGET   = gurux.dlms.client.bin$/;"	m
+closing	include/connection.h	/^        unsigned char closing;$/;"	m	struct:__anon1
+comPort	include/connection.h	/^        HANDLE comPort;$/;"	m	struct:__anon1
+comPort	include/connection.h	/^        int comPort;$/;"	m	struct:__anon1
+com_close	src/communication.c	/^int com_close($/;"	f
+com_disconnect	src/communication.c	/^int com_disconnect($/;"	f
+com_getAssociationView	src/communication.c	/^int com_getAssociationView(connection* connection)$/;"	f
+com_initializeConnection	src/communication.c	/^int com_initializeConnection($/;"	f
+com_initializeOpticalHead	src/communication.c	/^int com_initializeOpticalHead($/;"	f
+com_makeConnect	src/communication.c	/^int com_makeConnect(connection* connection, const char* address, int port)\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/???$/;"	f
+com_method	src/communication.c	/^int com_method($/;"	f
+com_open	src/communication.c	/^int com_open($/;"	f
+com_read	src/communication.c	/^int com_read($/;"	f
+com_readAllObjects	src/communication.c	/^int com_readAllObjects(connection* connection)$/;"	f
+com_readDataBlock	src/communication.c	/^int com_readDataBlock($/;"	f
+com_readList	src/communication.c	/^int com_readList($/;"	f
+com_readProfileGenericColumns	src/communication.c	/^int com_readProfileGenericColumns($/;"	f
+com_readProfileGenerics	src/communication.c	/^int com_readProfileGenerics($/;"	f
+com_readRowsByEntry	src/communication.c	/^int com_readRowsByEntry($/;"	f
+com_readRowsByEntry2	src/communication.c	/^int com_readRowsByEntry2($/;"	f
+com_readRowsByRange	src/communication.c	/^int com_readRowsByRange($/;"	f
+com_readScalerAndUnits	src/communication.c	/^int com_readScalerAndUnits($/;"	f
+com_readSerialPort	src/communication.c	/^int com_readSerialPort($/;"	f
+com_readValue	src/communication.c	/^int com_readValue(connection* connection, gxObject* object, unsigned char index)\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/?????????$/;"	f
+com_readValues	src/communication.c	/^int com_readValues(connection* connection)$/;"	f
+com_reportError	src/communication.c	/^void com_reportError(const char* description,$/;"	f
+com_setCommState	src/communication.c	/^int com_setCommState(HANDLE hWnd, LPDCB DCB)$/;"	f
+com_updateClock	src/main.c	/^int com_updateClock(connection* connection)$/;"	f
+com_updateInvocationCounter	src/communication.c	/^int com_updateInvocationCounter($/;"	f
+com_write	src/communication.c	/^int com_write($/;"	f
+con_close	src/connection.c	/^void con_close(connection* con)$/;"	f
+con_init	src/connection.c	/^void con_init(connection* con, GX_TRACE_LEVEL trace)$/;"	f
+con_initializeBuffers	src/connection.c	/^void con_initializeBuffers(connection* connection, int size)$/;"	f
+connectMeter	src/main.c	/^int connectMeter(int argc, char* argv[])$/;"	f
+connection	include/connection.h	/^    } connection;$/;"	t	typeref:struct:__anon1
+data	include/connection.h	/^        gxByteBuffer data;$/;"	m	struct:__anon1
+disconnect	src/main.c	/^int disconnect(connection* connection)$/;"	f
+getopt	src/getopt.c	/^int getopt(int argc, char *const argv[], const char *optstring)$/;"	f
+main	src/main.c	/^int main(int argc, char* argv[])$/;"	f
+optarg	src/getopt.c	/^char* optarg = 0;$/;"	v
+optind	src/getopt.c	/^int optind = 1;$/;"	v
+osReader	include/connection.h	/^        OVERLAPPED		osReader;$/;"	m	struct:__anon1
+osWrite	include/connection.h	/^        OVERLAPPED		osWrite;$/;"	m	struct:__anon1
+readDLMSPacket	src/communication.c	/^int readDLMSPacket($/;"	f
+readSerialPort	src/main.c	/^int readSerialPort($/;"	f
+readTcpIpConnection	src/main.c	/^int readTcpIpConnection($/;"	f
+receiverThread	include/connection.h	/^        int receiverThread;$/;"	m	struct:__anon1
+rm	makefile	/^rm       = rm -f$/;"	m
+settings	include/connection.h	/^        dlmsSettings settings;$/;"	m	struct:__anon1
+socket	include/connection.h	/^        int socket;$/;"	m	struct:__anon1
+svr_connected	src/main.c	/^int svr_connected($/;"	f
+svr_getAttributeAccess	src/main.c	/^DLMS_ACCESS_MODE svr_getAttributeAccess($/;"	f
+svr_getMethodAccess	src/main.c	/^DLMS_METHOD_ACCESS_MODE svr_getMethodAccess($/;"	f
+svr_isTarget	src/main.c	/^unsigned char svr_isTarget($/;"	f
+time_now	src/communication.c	/^void time_now(gxtime* value)$/;"	f
+trace	include/connection.h	/^        GX_TRACE_LEVEL trace;$/;"	m	struct:__anon1
+waitTime	include/connection.h	/^        unsigned long   waitTime;$/;"	m	struct:__anon1

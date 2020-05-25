@@ -1,0 +1,22 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+COMMUNICATION_H	communication.h	18;"	d
+GETOPT_H__	getopt.h	21;"	d
+MEDIA_H	connection.h	18;"	d
+RECEIVE_BUFFER_SIZE	connection.h	/^static const unsigned int RECEIVE_BUFFER_SIZE = 200;$/;"	v
+closing	connection.h	/^        unsigned char closing;$/;"	m	struct:__anon1
+comPort	connection.h	/^        HANDLE comPort;$/;"	m	struct:__anon1
+comPort	connection.h	/^        int comPort;$/;"	m	struct:__anon1
+connection	connection.h	/^    } connection;$/;"	t	typeref:struct:__anon1
+data	connection.h	/^        gxByteBuffer data;$/;"	m	struct:__anon1
+osReader	connection.h	/^        OVERLAPPED		osReader;$/;"	m	struct:__anon1
+osWrite	connection.h	/^        OVERLAPPED		osWrite;$/;"	m	struct:__anon1
+receiverThread	connection.h	/^        int receiverThread;$/;"	m	struct:__anon1
+settings	connection.h	/^        dlmsSettings settings;$/;"	m	struct:__anon1
+socket	connection.h	/^        int socket;$/;"	m	struct:__anon1
+trace	connection.h	/^        GX_TRACE_LEVEL trace;$/;"	m	struct:__anon1
+waitTime	connection.h	/^        unsigned long   waitTime;$/;"	m	struct:__anon1

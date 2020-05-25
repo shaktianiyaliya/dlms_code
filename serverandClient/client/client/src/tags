@@ -1,0 +1,51 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+INVALID_HANDLE_VALUE	communication.c	26;"	d	file:
+ShowHelp	main.c	/^static void ShowHelp()$/;"	f	file:
+com_close	communication.c	/^int com_close($/;"	f
+com_disconnect	communication.c	/^int com_disconnect($/;"	f
+com_getAssociationView	communication.c	/^int com_getAssociationView(connection* connection)$/;"	f
+com_initializeConnection	communication.c	/^int com_initializeConnection($/;"	f
+com_initializeOpticalHead	communication.c	/^int com_initializeOpticalHead($/;"	f
+com_makeConnect	communication.c	/^int com_makeConnect(connection* connection, const char* address, int port)\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/???$/;"	f
+com_method	communication.c	/^int com_method($/;"	f
+com_open	communication.c	/^int com_open($/;"	f
+com_read	communication.c	/^int com_read($/;"	f
+com_readAllObjects	communication.c	/^int com_readAllObjects(connection* connection)$/;"	f
+com_readDataBlock	communication.c	/^int com_readDataBlock($/;"	f
+com_readList	communication.c	/^int com_readList($/;"	f
+com_readProfileGenericColumns	communication.c	/^int com_readProfileGenericColumns($/;"	f
+com_readProfileGenerics	communication.c	/^int com_readProfileGenerics($/;"	f
+com_readRowsByEntry	communication.c	/^int com_readRowsByEntry($/;"	f
+com_readRowsByEntry2	communication.c	/^int com_readRowsByEntry2($/;"	f
+com_readRowsByRange	communication.c	/^int com_readRowsByRange($/;"	f
+com_readScalerAndUnits	communication.c	/^int com_readScalerAndUnits($/;"	f
+com_readSerialPort	communication.c	/^int com_readSerialPort($/;"	f
+com_readValue	communication.c	/^int com_readValue(connection* connection, gxObject* object, unsigned char index)\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/?????????$/;"	f
+com_readValues	communication.c	/^int com_readValues(connection* connection)$/;"	f
+com_reportError	communication.c	/^void com_reportError(const char* description,$/;"	f
+com_setCommState	communication.c	/^int com_setCommState(HANDLE hWnd, LPDCB DCB)$/;"	f
+com_updateClock	main.c	/^int com_updateClock(connection* connection)$/;"	f
+com_updateInvocationCounter	communication.c	/^int com_updateInvocationCounter($/;"	f
+com_write	communication.c	/^int com_write($/;"	f
+con_close	connection.c	/^void con_close(connection* con)$/;"	f
+con_init	connection.c	/^void con_init(connection* con, GX_TRACE_LEVEL trace)$/;"	f
+con_initializeBuffers	connection.c	/^void con_initializeBuffers(connection* connection, int size)$/;"	f
+connectMeter	main.c	/^int connectMeter(int argc, char* argv[])$/;"	f
+disconnect	main.c	/^int disconnect(connection* connection)$/;"	f
+getopt	getopt.c	/^int getopt(int argc, char *const argv[], const char *optstring)$/;"	f
+main	main.c	/^int main(int argc, char* argv[])$/;"	f
+optarg	getopt.c	/^char* optarg = 0;$/;"	v
+optind	getopt.c	/^int optind = 1;$/;"	v
+readDLMSPacket	communication.c	/^int readDLMSPacket($/;"	f
+readSerialPort	main.c	/^int readSerialPort($/;"	f
+readTcpIpConnection	main.c	/^int readTcpIpConnection($/;"	f
+svr_connected	main.c	/^int svr_connected($/;"	f
+svr_getAttributeAccess	main.c	/^DLMS_ACCESS_MODE svr_getAttributeAccess($/;"	f
+svr_getMethodAccess	main.c	/^DLMS_METHOD_ACCESS_MODE svr_getMethodAccess($/;"	f
+svr_isTarget	main.c	/^unsigned char svr_isTarget($/;"	f
+time_now	communication.c	/^void time_now(gxtime* value)$/;"	f

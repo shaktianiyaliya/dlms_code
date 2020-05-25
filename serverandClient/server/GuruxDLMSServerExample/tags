@@ -1,0 +1,200 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+ALL_OBJECTS	src/exampleserver.c	/^gxObject* ALL_OBJECTS[] = { &ldn.base, &id1.base, &id2.base, &fw.base, &imageTransfer.base, &activePowerL1.base, &clock1.base, &udpSetup.base, &profileGeneric.base,$/;"	v
+BINDIR	makefile	/^BINDIR   = bin$/;"	m
+CC	makefile	/^CC       = gcc$/;"	m
+CFLAGS	makefile	/^CFLAGS   = -std=gnu99 -Wall -I.$/;"	m
+CONNECTION_H	include/connection.h	18;"	d
+DATAFILE	include/exampleserver.h	/^char DATAFILE[FILENAME_MAX];$/;"	v
+GETOPT_H__	include/getopt.h	21;"	d
+GetProfileGenericDataByRangeFromRingBuffer	src/exampleserver.c	/^int GetProfileGenericDataByRangeFromRingBuffer(gxValueEventArg* e)$/;"	f
+HDLC_BUFFER_SIZE	src/main.c	52;"	d	file:
+HDLC_HEADER_SIZE	src/main.c	50;"	d	file:
+HIGH_OBJECTS	src/exampleserver.c	/^gxObject* HIGH_OBJECTS[] = {$/;"	v
+IMAGEFILE	include/exampleserver.h	/^char IMAGEFILE[FILENAME_MAX];$/;"	v
+INCLUDES	makefile	/^INCLUDES := $(wildcard $(SRCDIR)\/*.h)$/;"	m
+INVALID_HANDLE_VALUE	src/connection.c	29;"	d	file:
+LFLAGS	makefile	/^LFLAGS   = -L..\/development\/lib $/;"	m
+LINKER	makefile	/^LINKER   = gcc -o$/;"	m
+LOW_OBJECTS	src/exampleserver.c	/^gxObject* LOW_OBJECTS[] = { &lowAssociation.base, &ldn.base, &securitySetup.base };$/;"	v
+ListenerThread	src/connection.c	/^void ListenerThread(void* pVoid)$/;"	f
+NONE_OBJECTS	src/exampleserver.c	/^gxObject* NONE_OBJECTS[] = {$/;"	v
+OBJDIR	makefile	/^OBJDIR   = obj$/;"	m
+OBJECTS	makefile	/^OBJECTS  := $(SOURCES:$(SRCDIR)\/%.c=$(OBJDIR)\/%.o)$/;"	m
+PDU_BUFFER_SIZE	src/exampleserver.c	307;"	d	file:
+PDU_BUFFER_SIZE	src/main.c	53;"	d	file:
+RECEIVE_BUFFER_SIZE	include/connection.h	/^static const unsigned int RECEIVE_BUFFER_SIZE = 200;$/;"	v
+SN_OBJECTS	src/exampleserver.c	/^gxObject* SN_OBJECTS[] = { &associationShortName.base, &ldn.base, &id1.base, &id2.base, &fw.base, &imageTransfer.base,$/;"	v
+SOURCES	makefile	/^SOURCES  := $(wildcard $(SRCDIR)\/*.c)$/;"	m
+SRCDIR	makefile	/^SRCDIR   = src$/;"	m
+TARGET	makefile	/^TARGET   = gurux.dlms.server.bin$/;"	m
+TRACEFILE	include/exampleserver.h	/^char TRACEFILE[FILENAME_MAX];$/;"	v
+UnixListenerThread	src/connection.c	/^void* UnixListenerThread(void* pVoid)$/;"	f
+WRAPPER_BUFFER_SIZE	src/main.c	54;"	d	file:
+_tmain	src/main.c	/^int _tmain(int argc, _TCHAR* argv[])$/;"	f
+actionSchedule	src/exampleserver.c	/^gxActionSchedule actionSchedule;$/;"	v
+activePowerL1	src/exampleserver.c	/^gxRegister activePowerL1;$/;"	v
+activityCalendar	src/exampleserver.c	/^gxActivityCalendar activityCalendar;$/;"	v
+addActionSchedule	src/exampleserver.c	/^int addActionSchedule($/;"	f
+addActivityCalendar	src/exampleserver.c	/^int addActivityCalendar($/;"	f
+addAssociation	src/exampleserver.c	/^int addAssociation()$/;"	f
+addAutoAnswer	src/exampleserver.c	/^int addAutoAnswer($/;"	f
+addAutoConnect	src/exampleserver.c	/^int addAutoConnect($/;"	f
+addClockObject	src/exampleserver.c	/^int addClockObject($/;"	f
+addCompactData	src/exampleserver.c	/^int addCompactData($/;"	f
+addDemandRegister	src/exampleserver.c	/^int addDemandRegister($/;"	f
+addDisconnectControl	src/exampleserver.c	/^int addDisconnectControl($/;"	f
+addFrameCounters	src/exampleserver.c	/^int addFrameCounters(objectArray* objects)$/;"	f
+addHighAssociation	src/exampleserver.c	/^int addHighAssociation()$/;"	f
+addIP4Setup	src/exampleserver.c	/^int addIP4Setup($/;"	f
+addIecHdlcSetup	src/exampleserver.c	/^int addIecHdlcSetup($/;"	f
+addImageTransfer	src/exampleserver.c	/^int addImageTransfer($/;"	f
+addInstantDataProfileGeneric	src/exampleserver.c	/^int addInstantDataProfileGeneric($/;"	f
+addItalianAssociation	src/exampleserver.c	/^int addItalianAssociation(objectArray* objects)$/;"	f
+addLowAssociation	src/exampleserver.c	/^int addLowAssociation()$/;"	f
+addMacAddressSetup	src/exampleserver.c	/^int addMacAddressSetup($/;"	f
+addModemConfiguration	src/exampleserver.c	/^int addModemConfiguration($/;"	f
+addNoneAssociation	src/exampleserver.c	/^int addNoneAssociation()$/;"	f
+addOpticalPortSetup	src/exampleserver.c	/^int addOpticalPortSetup($/;"	f
+addProfileGeneric	src/exampleserver.c	/^int addProfileGeneric($/;"	f
+addPushSetup	src/exampleserver.c	/^int addPushSetup($/;"	f
+addRegisterMonitor	src/exampleserver.c	/^int addRegisterMonitor($/;"	f
+addRegisterObject	src/exampleserver.c	/^int addRegisterObject($/;"	f
+addSapAssignment	src/exampleserver.c	/^int addSapAssignment($/;"	f
+addScriptTable	src/exampleserver.c	/^int addScriptTable($/;"	f
+addSecuritySetup	src/exampleserver.c	/^int addSecuritySetup($/;"	f
+addTcpUdpSetup	src/exampleserver.c	/^int addTcpUdpSetup($/;"	f
+apparentPower	src/exampleserver.c	/^gxRegister frequency, apparentPower, signedActivePower, signedReactivePower;$/;"	v
+appendLog	src/connection.c	/^void appendLog(unsigned char send, gxByteBuffer* reply)$/;"	f
+associationNone	src/exampleserver.c	/^gxAssociationLogicalName associationNone, highAssociation;$/;"	v
+associationShortName	src/exampleserver.c	/^gxAssociationShortName associationShortName;$/;"	v
+autoAnswer	src/exampleserver.c	/^gxAutoAnswer autoAnswer;$/;"	v
+autoConnect	src/exampleserver.c	/^gxAutoConnect autoConnect;$/;"	v
+billingDate	src/exampleserver.c	/^gxRegister billingDate, cumulativeEnergy;$/;"	v
+capture2File	src/exampleserver.c	/^void capture2File(gxProfileGeneric* pg)$/;"	f
+captureToRingBuffer	src/exampleserver.c	/^void captureToRingBuffer(gxProfileGeneric* pg)$/;"	f
+clock1	src/exampleserver.c	/^gxClock clock1;$/;"	v
+closesocket	src/main.c	29;"	d	file:
+closing	include/connection.h	/^    unsigned char closing;$/;"	m	struct:__anon1
+comPort	include/connection.h	/^    HANDLE comPort;$/;"	m	struct:__anon1
+comPort	include/connection.h	/^    int comPort;$/;"	m	struct:__anon1
+compactData	src/exampleserver.c	/^gxCompactData compactData;$/;"	v
+con_close	src/connection.c	/^int con_close($/;"	f
+con_initializeBuffers	src/connection.c	/^void con_initializeBuffers(connection * connection, int size)$/;"	f
+connectServer	src/exampleserver.c	/^int connectServer($/;"	f
+connection	include/connection.h	/^} connection;$/;"	t	typeref:struct:__anon1
+cumulativeBillingCount	src/exampleserver.c	/^gxRegister numberOfPowerFailures, cumulativePowerFailureDuration, cumulativeTamperCount, cumulativeBillingCount, cumulativeProgrammingCount;$/;"	v
+cumulativeEnergy	src/exampleserver.c	/^gxRegister billingDate, cumulativeEnergy;$/;"	v
+cumulativePowerFailureDuration	src/exampleserver.c	/^gxRegister numberOfPowerFailures, cumulativePowerFailureDuration, cumulativeTamperCount, cumulativeBillingCount, cumulativeProgrammingCount;$/;"	v
+cumulativeProgrammingCount	src/exampleserver.c	/^gxRegister numberOfPowerFailures, cumulativePowerFailureDuration, cumulativeTamperCount, cumulativeBillingCount, cumulativeProgrammingCount;$/;"	v
+cumulativeTamperCount	src/exampleserver.c	/^gxRegister numberOfPowerFailures, cumulativePowerFailureDuration, cumulativeTamperCount, cumulativeBillingCount, cumulativeProgrammingCount;$/;"	v
+currentIB	src/exampleserver.c	/^gxRegister currentIR, currentIY, currentIB;$/;"	v
+currentIR	src/exampleserver.c	/^gxRegister currentIR, currentIY, currentIB;$/;"	v
+currentIY	src/exampleserver.c	/^gxRegister currentIR, currentIY, currentIB;$/;"	v
+data	include/connection.h	/^    gxByteBuffer data;$/;"	m	struct:__anon1
+demandRegister	src/exampleserver.c	/^gxDemandRegister demandRegister;$/;"	v
+disconnectControl	src/exampleserver.c	/^gxDisconnectControl disconnectControl;$/;"	v
+frameCounterBroadcast	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterGateway	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterGuarantor	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterInstaller	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterOffLine	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterOnLine	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frameCounterThresholds	src/exampleserver.c	/^gxData frameCounterThresholds, frameCounterOnLine, frameCounterOffLine, frameCounterGuarantor, frameCounterInstaller, frameCounterGateway, frameCounterBroadcast;$/;"	v
+frequency	src/exampleserver.c	/^gxRegister frequency, apparentPower, signedActivePower, signedReactivePower;$/;"	v
+fw	src/exampleserver.c	/^gxData ldn, id1, id2, fw;$/;"	v
+getHead	src/exampleserver.c	/^unsigned short getHead() {$/;"	f
+getIpAddress	src/exampleserver.c	/^unsigned long getIpAddress()$/;"	f
+getProfileGenericDataByEntry	src/exampleserver.c	/^void getProfileGenericDataByEntry(gxProfileGeneric* p, long index, long count)$/;"	f
+getProfileGenericDataByRange	src/exampleserver.c	/^int getProfileGenericDataByRange(dlmsSettings* settings, gxValueEventArg* e)$/;"	f
+getProfileGenericDataCount	src/exampleserver.c	/^int getProfileGenericDataCount() {$/;"	f
+getRestrictingObject	src/exampleserver.c	/^int getRestrictingObject(dlmsSettings* settings, gxValueEventArg* e, gxObject** obj, short* index)$/;"	f
+getopt	src/getopt.c	/^int getopt(int argc, _TCHAR *const argv[], const char *optstring)$/;"	f
+handleProfileGenericActions	src/exampleserver.c	/^void handleProfileGenericActions($/;"	f
+highAssociation	src/exampleserver.c	/^gxAssociationLogicalName associationNone, highAssociation;$/;"	v
+id1	src/exampleserver.c	/^gxData ldn, id1, id2, fw;$/;"	v
+id2	src/exampleserver.c	/^gxData ldn, id1, id2, fw;$/;"	v
+iecHdlcSetup	src/exampleserver.c	/^gxIecHdlcSetup iecHdlcSetup;$/;"	v
+imageActionStartTime	src/exampleserver.c	/^time_t imageActionStartTime;$/;"	v
+imageSize	src/exampleserver.c	/^int imageSize = 0;$/;"	v
+imageTransfer	src/exampleserver.c	/^gxImageTransfer imageTransfer;$/;"	v
+instantData	src/exampleserver.c	/^gxProfileGeneric instantData;$/;"	v
+ip4Setup	src/exampleserver.c	/^gxIp4Setup ip4Setup;$/;"	v
+isConnected	src/connection.c	/^unsigned char isConnected(connection* con)$/;"	f
+ldn	src/exampleserver.c	/^gxData ldn, id1, id2, fw;$/;"	v
+ln47frameBuff	src/main.c	/^unsigned char ln47frameBuff[WRAPPER_BUFFER_SIZE];$/;"	v
+ln47pduBuff	src/main.c	/^unsigned char ln47pduBuff[PDU_BUFFER_SIZE];$/;"	v
+lnframeBuff	src/main.c	/^unsigned char lnframeBuff[HDLC_BUFFER_SIZE + HDLC_HEADER_SIZE];$/;"	v
+lnpduBuff	src/main.c	/^unsigned char lnpduBuff[PDU_BUFFER_SIZE];$/;"	v
+localPortSetup	src/exampleserver.c	/^gxLocalPortSetup localPortSetup;$/;"	v
+lowAssociation	src/exampleserver.c	/^gxAssociationLogicalName lowAssociation;$/;"	v
+macAddressSetup	src/exampleserver.c	/^gxMacAddressSetup macAddressSetup;$/;"	v
+modemConfiguration	src/exampleserver.c	/^gxModemConfiguration modemConfiguration;$/;"	v
+numberOfPowerFailures	src/exampleserver.c	/^gxRegister numberOfPowerFailures, cumulativePowerFailureDuration, cumulativeTamperCount, cumulativeBillingCount, cumulativeProgrammingCount;$/;"	v
+optarg	src/getopt.c	/^char* optarg = 0;$/;"	v
+optind	src/getopt.c	/^int optind = 1;$/;"	v
+osReader	include/connection.h	/^    OVERLAPPED		osReader;$/;"	m	struct:__anon1
+osWrite	include/connection.h	/^    OVERLAPPED		osWrite;$/;"	m	struct:__anon1
+printValues	src/exampleserver.c	/^int printValues(variantArray* values)$/;"	f
+println	src/exampleserver.c	/^void println(char* desc, gxByteBuffer* data)$/;"	f
+profileGeneric	src/exampleserver.c	/^gxProfileGeneric profileGeneric;$/;"	v
+pushSetup	src/exampleserver.c	/^gxPushSetup pushSetup;$/;"	v
+receiverThread	include/connection.h	/^    HANDLE receiverThread;$/;"	m	struct:__anon1
+receiverThread	include/connection.h	/^    pthread_t receiverThread;$/;"	m	struct:__anon1
+registerMonitor	src/exampleserver.c	/^gxRegisterMonitor registerMonitor;$/;"	v
+rm	makefile	/^rm       = rm -f$/;"	m
+sapAssignment	src/exampleserver.c	/^gxSapAssignment sapAssignment;$/;"	v
+scriptTable	src/exampleserver.c	/^gxScriptTable scriptTable;$/;"	v
+securitySetup	src/exampleserver.c	/^gxSecuritySetup securitySetup;$/;"	v
+sendPush	src/exampleserver.c	/^int sendPush($/;"	f
+settings	include/connection.h	/^    dlmsServerSettings settings;$/;"	m	struct:__anon1
+showHelp	src/main.c	/^void showHelp()$/;"	f
+signedActivePower	src/exampleserver.c	/^gxRegister frequency, apparentPower, signedActivePower, signedReactivePower;$/;"	v
+signedReactivePower	src/exampleserver.c	/^gxRegister frequency, apparentPower, signedActivePower, signedReactivePower;$/;"	v
+sn	src/exampleserver.c	/^unsigned long sn = 123456;$/;"	v
+sn47frameBuff	src/main.c	/^unsigned char sn47frameBuff[WRAPPER_BUFFER_SIZE];$/;"	v
+sn47pduBuff	src/main.c	/^unsigned char sn47pduBuff[PDU_BUFFER_SIZE];$/;"	v
+snframeBuff	src/main.c	/^unsigned char snframeBuff[HDLC_BUFFER_SIZE + HDLC_HEADER_SIZE];$/;"	v
+snpduBuff	src/main.c	/^unsigned char snpduBuff[PDU_BUFFER_SIZE];$/;"	v
+socket	include/connection.h	/^    SOCKET socket;$/;"	m	struct:__anon1
+socket	include/connection.h	/^    int socket;$/;"	m	struct:__anon1
+spfB	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+spfBF	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+spfR	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+spfY	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+startServers	src/main.c	/^int startServers(int port, int trace)$/;"	f
+svr_InitObjects	src/exampleserver.c	/^int svr_InitObjects($/;"	f
+svr_connected	src/exampleserver.c	/^int svr_connected($/;"	f
+svr_disconnected	src/exampleserver.c	/^int svr_disconnected($/;"	f
+svr_findObject	src/exampleserver.c	/^int svr_findObject($/;"	f
+svr_getAttributeAccess	src/exampleserver.c	/^DLMS_ACCESS_MODE svr_getAttributeAccess($/;"	f
+svr_getDataType	src/exampleserver.c	/^void svr_getDataType($/;"	f
+svr_getMethodAccess	src/exampleserver.c	/^DLMS_METHOD_ACCESS_MODE svr_getMethodAccess($/;"	f
+svr_invalidConnection	src/exampleserver.c	/^int svr_invalidConnection(dlmsServerSettings* settings)$/;"	f
+svr_isTarget	src/exampleserver.c	/^unsigned char svr_isTarget($/;"	f
+svr_listen	src/connection.c	/^int svr_listen($/;"	f
+svr_postAction	src/exampleserver.c	/^void svr_postAction($/;"	f
+svr_postGet	src/exampleserver.c	/^void svr_postGet($/;"	f
+svr_postRead	src/exampleserver.c	/^void svr_postRead($/;"	f
+svr_postWrite	src/exampleserver.c	/^void svr_postWrite($/;"	f
+svr_preAction	src/exampleserver.c	/^void svr_preAction($/;"	f
+svr_preGet	src/exampleserver.c	/^void svr_preGet($/;"	f
+svr_preRead	src/exampleserver.c	/^void svr_preRead($/;"	f
+svr_preWrite	src/exampleserver.c	/^void svr_preWrite($/;"	f
+svr_start	src/exampleserver.c	/^int svr_start($/;"	f
+svr_validateAuthentication	src/exampleserver.c	/^DLMS_SOURCE_DIAGNOSTIC svr_validateAuthentication($/;"	f
+time_elapsed	src/exampleserver.c	/^long time_elapsed(void)$/;"	f
+time_now	src/exampleserver.c	/^void time_now($/;"	f
+trace	include/connection.h	/^    unsigned char trace;$/;"	m	struct:__anon1
+udpSetup	src/exampleserver.c	/^gxTcpUdpSetup udpSetup;$/;"	v
+useRingBuffer	src/exampleserver.c	/^unsigned char useRingBuffer = 0;$/;"	v
+voltageVBN	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+voltageVBY	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+voltageVRN	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+voltageVRY	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+voltageVYN	src/exampleserver.c	/^gxRegister voltageVRN, voltageVYN, voltageVBN, voltageVRY, voltageVBY, spfR, spfY, spfB, spfBF;$/;"	v
+waitTime	include/connection.h	/^    unsigned long   waitTime;$/;"	m	struct:__anon1
